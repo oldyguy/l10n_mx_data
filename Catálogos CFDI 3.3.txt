@@ -1,0 +1,163 @@
+﻿[$og 2019-07-08]:
+
+	Archivo para facilitar la comprensión del esquema cfdv33.xsd del SAT
+		s[#]:	Campo alfanumérico con # posiciones
+		s[]:	Campo alfanumérico sin # de posiciones especificado
+		e[#]:	Campo numérico entero con # posiciones
+		f[#.%]: Campo numérico flotante con # posiciones y % decimales
+		f[]:	Campo numérico flotante sin # de posiciones especificado
+		d[#]:	Campo de tipo fecha con # posiciones
+		u[#]:	Campo de tipo UUID con # posiciones
+		v[3.3]:	Campo numérico flotante con valor 3.3 (versión del CFDI)
+		{}:		Grupo de datos repetibles
+
+	En el archivo tdCFDI.xsd se definen todos los tipos de campos utilizados
+	en el archivo cfdv33.xsd
+	
+	El archivo catCFDI.xsd contiene los catálogos utilizados para la
+	generación de CFDIs.
+
+	links:
+		Anexo 20:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm
+		XSD:			http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd
+		Tipos:			http://omawww.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI/tdCFDI.xsd
+		XSLT:			http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt
+		Combustible:	http://www.sat.gob.mx/sitio_internet/cfd/EstadoDeCuentaCombustible/ecc11.xsd
+		CP:				https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx
+		
+cfdi:
+	Comprobante
+	    {
+            CfdiRelacionado
+                {
+                    UUID                                            u[36]
+                }
+                TipoRelacion                                        e[2]
+            
+            Emisor
+                Rfc                                                 s[13]
+                Nombre                                              s[254]
+                RegimenFiscal                                       e[3]
+                
+            Receptor
+                Rfc                                                 s[13]
+                Nombre                                              s[254]
+                ResidenciaFiscal                                    s[3]
+                NumRegIdTrib                                        s[40]
+                UsoCFDI                                             s[3]
+                
+            Conceptos
+                {
+                    Concepto
+                        {
+                            Impuestos
+                                {
+                                    Traslados
+                                        {
+                                            Traslado
+                                                Base                f[8.6]
+                                                Impuesto            e[3]
+                                                TipoFactor          s[7]
+                                                TasaOCuota          f[8.6]
+                                                Importe             f[]
+                                        }
+                                         
+                                    Retenciones
+                                        {
+                                            Retención
+                                                Base                f[8.6]
+                                                Impuesto            e[3]
+                                                TipoFactor          s[7]
+                                                TasaOCuota          f[8.6]
+                                                Importe             f[]
+                                        }
+                                }
+                                 
+                            InformacionAduanera
+                                NumeroPedimento                     e[21]
+                                
+                            CuentaPredial
+                                Numero                              s[150]
+                                
+                            {
+                                ComplementoConcepto                 s[]
+                            }
+                             
+                            Parte
+                                {
+                                    InformacionAduanera
+                                        NumeroPedimento             e[21]
+                                }
+                                 
+                                ClaveProdServ                       e[8]
+                                NoIdentificacion                    s[100]
+                                Cantidad                            f[8.6]
+                                Unidad                              s[20]
+                                Descripcion                         s[1000]
+                                ValorUnitario                       f[]
+                                Importe                             f[]
+                        }
+
+                        ClaveProdServ                               e[8]
+                        NoIdentificacion                            s[100]
+                        Cantidad                                    f[8.6]
+                        ClaveUnidad                                 e[3]
+                        Unidad                                      s[20]
+                        Descripcion                                 s[1000]
+                        ValorUnitario                               f[]
+                        Importe                                     f[]
+                        Descuento                                   f[]
+                }
+
+            Impuestos
+                {
+                    Retenciones
+                        {
+                            Retención
+                                Impuesto                            e[3]
+                                Importe                             f[]
+                        }
+
+                    Traslados
+                        {
+                            Traslado
+                                Impuesto                            e[3]
+                                TipoFactor                          s[7]
+                                TasaOCuota                          f[8.6]
+                                Importe                             f[]
+                        }
+                }
+                
+                TotalImpuestosRetenidos                             f[]
+                TotalImpuestosTrasladados                           f[]
+            
+            {
+                Complemento                                         s[]
+            }
+
+            {
+                Addenda                                             s[]
+            }
+            
+        }
+        
+        Version                                                     v[3.3]
+        Serie                                                       s[25]
+        Folio                                                       s[40]
+        Fecha                                                       d[19]
+        Sello                                                       s[]
+        FormaPago                                                   e[2]
+        NoCertificado                                               s[20]
+        Certificado                                                 s[]
+        CondicionesDePago                                           s[1000]
+        SubTotal                                                    f[]
+        Descuento                                                   f[]
+        Moneda                                                      s[3]
+        TipoCambio                                                  f[8.6]
+        Total                                                       f[]
+        TipoDeComprobante                                           s[1]
+        MetodoPago                                                  s[3]
+        LugarExpedicion                                             e[5]
+        Confirmacion                                                s[5]
+        
+
