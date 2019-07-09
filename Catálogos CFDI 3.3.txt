@@ -26,35 +26,97 @@
 		PACs:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/proveedores_autorizados_certificacion.htm
 
 	Catálogos:
-		c_Aduana:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_ClavePedimento:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_ClavePedimento.xls
-		c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_Colonia				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Colonia.xls
-		c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/C_Estado.xls
-		c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls
-		c_Impuesto:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_INCOTERM:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_INCOTERM.xls
-		c_Localidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Localidad.xls
-		c_MetodoPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_Moneda:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_MotivoTraslado:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_MotivoTraslado.xls
-		c_Municipio:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Municipio.xls
-		c_NumPedimentoAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_Pais:					http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Pais.xls
-		c_PatenteAduanal		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_RegimenFiscal:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_RegimenFiscal.xls
-		c_TasaOCuota:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_TipoCadenaPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_TipoDeComprobante:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-		c_TipoOperacion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_TipoOperacion.xls
-		c_TipoRelacion:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_UnidadAduana:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadAduana.xls
-		c_UnidadMedidaAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadMedidaAduana.xls
-		c_UsoCFDI:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+	
+		Básicos
+		
+			c_Aduana:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_ClavePedimento:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_ClavePedimento.xls
+			c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_Colonia				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Colonia.xls
+			c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/C_Estado.xls
+			c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls
+			c_Impuesto:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_INCOTERM:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_INCOTERM.xls
+			c_Localidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Localidad.xls
+			c_MetodoPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_Moneda:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_MotivoTraslado:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_MotivoTraslado.xls
+			c_Municipio:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Municipio.xls
+			c_NumPedimentoAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_Pais:					http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Pais.xls
+			c_PatenteAduanal		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_RegimenFiscal:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_RegimenFiscal.xls
+			c_TasaOCuota:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_TipoCadenaPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_TipoDeComprobante:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+			c_TipoOperacion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_TipoOperacion.xls
+			c_TipoRelacion:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+			c_UnidadAduana:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadAduana.xls
+			c_UnidadMedidaAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadMedidaAduana.xls
+			c_UsoCFDI:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+		
+		Complementos
+		
+			Nota:	Los identificados con * siguen apareciendo en el apartado de complementos,
+					aunque la guía del anexo 20 de la versión 3.3, ahora indica que son un 
+					tipo de CFDI.  
+					Fuente: https://contadormx.com/2017/09/04/cfdi-complemento-obligatorio-sat
+		
+			Timbre Fiscal Digital (TDF)
+			Donatarias
+			Compra venta de divisas
+			Otros derechos e impuestos
+			Leyendas fiscales
+			Persona física integrante de coordinado
+			Turista pasajero extranjero
+			SPEI de tercero a tercero
+			Sector de ventas al detalle (detallista)
+			CFDI Registro fiscal
+			Recibo de pago de Nóminas*
+				Régimen de Contratación del trabajador
+				Bancos
+				Riesgo Puesto
+				Atributo: TipoPercepcion
+				Atributo: TipoDeduccion
+				Tipo de Incapacidad
+			Estado de cuenta de combustibles monederos electrónicos
+			Pago en especie
+			Vales de despensa
+			Consumo de combustibles
+			Aerolíneas
+			Notarios públicos
+			Vehículo usado
+			Servicios parciales de construcción
+			Renovación y sustitución de vehículos
+			Certificado de destrucción
+			Obras de artes plásticas y antigüedades
+			INE
+			Comercio exterior
+				Claves de pedimento
+				Colonias
+				Códigos postales
+				Estados
+				Fracción arancelaria
+				Términos internacionales de comercio (INCOTERM)
+				Localidades
+				Moneda
+				Motivo traslado
+				Municipios
+				Países
+				Régimen fiscal
+				Tipo de operación
+				Unidades de medida
+			Recepción de pagos*
+
+		Complementos Concepto:
+			Instituciones educativas privadas
+			Venta de vehículos
+			Terceros
+			Acreditamiento del IEPS
 		
 		
 	Estructura XML:
