@@ -23,11 +23,15 @@
 		Tipos:			http://omawww.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI/tdCFDI.xsd
 		XSLT:			http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt
 		Combustible:	http://www.sat.gob.mx/sitio_internet/cfd/EstadoDeCuentaCombustible/ecc11.xsd
+		PACs:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/proveedores_autorizados_certificacion.htm
 
 	Catálogos:
-		CP:						https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx
+		c_Aduana:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_ClavePedimento:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_ClavePedimento.xls
-		c_ClaveProdServ:		https://sistema.docdigitales.com/ClaveSAT.xls
+		c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+		c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+		c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+		c_Colonia				(tomar de c_CodigoPostal)
 		c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/C_Estado.xls
 		c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
 		c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls
@@ -38,14 +42,19 @@
 		c_Moneda:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
 		c_MotivoTraslado:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_MotivoTraslado.xls
 		c_Municipio:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Municipio.xls
+		c_NumPedimentoAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_Pais:					http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Pais.xls
+		c_PatenteAduanal		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_RegimenFiscal:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_RegimenFiscal.xls
 		c_TasaOCuota:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
 		c_TipoCadenaPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
+		c_TipoDeComprobante:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
 		c_TipoOperacion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_TipoOperacion.xls
+		c_TipoRelacion:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_UnidadAduana:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadAduana.xls
 		c_UnidadMedidaAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadMedidaAduana.xls
+		c_UsoCFDI:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		
 		
 	Estructura XML:
