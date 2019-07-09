@@ -31,7 +31,7 @@
 		c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
 		c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-		c_Colonia				(tomar de c_CodigoPostal)
+		c_Colonia				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Colonia.xls
 		c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/C_Estado.xls
 		c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
 		c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls
