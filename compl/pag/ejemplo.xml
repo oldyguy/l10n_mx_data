@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Certificado="@" Fecha="2018-08-01T05:55:55" Folio="1111" LugarExpedicion="45400" Moneda="XXX" NoCertificado="20001000000300022815" Sello="@" Serie="11" SubTotal="0" TipoDeComprobante="P" Total="0" Version="3.3" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+ <cfdi:Emisor Nombre="PruebaPago" RegimenFiscal="601" Rfc="LAN7008173R5"/>
+ <cfdi:Receptor Nombre="Test" Rfc="LAN8507268IA" UsoCFDI="P01"/>
+ <cfdi:Conceptos>
+ <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="Pago" Importe="0" ValorUnitario="0"/>
+ </cfdi:Conceptos>
+ <cfdi:Complemento>
+ <pago10:Pagos Version="1.0" xmlns:pago10="http://www.sat.gob.mx/Pagos" xsi:schemaLocation="http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd">
+ <pago10:Pago FechaPago="2018-08-02T01:00:02" FormaDePagoP="01" MonedaP="MXN" Monto="1.00">
+ <pago10:DoctoRelacionado Folio="1111111111" IdDocumento="bfc36522-4b8e-45c4-8f14-d11b289f9eb7" ImpPagado="1.00" MetodoDePagoDR="PUE" MonedaDR="MXN" Serie="22"/>
+ </pago10:Pago>
+ </pago10:Pagos>
+ </cfdi:Complemento>
+</cfdi:Comprobante>
