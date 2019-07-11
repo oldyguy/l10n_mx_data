@@ -8,6 +8,51 @@
 	wrk	Documentos de trabajo relativos a la Localización
 	xml	Archivos XLST y XSD de cada Complemento
 
+###### Complementos
+	
+	acc	Enajenación de Acciones
+	aer	Aerolíneas
+	art	Obras de Arte Plásticas y Antigüedades
+	cce	Comercio Exterior
+	cfd	CFDI Registro fiscal
+	cmb	Consumo de Combustibles
+	coo	Persona Física integrante de Coordinados
+	des	Certificado de Destrucción
+	det	Sector de Ventas al Detalle
+	div	Compra Venta de Divisas
+	don	Donatarias
+	drv	Operaciones con Derivados
+	ecc	Estado de cuenta de combustibles monederos electrónicos
+	esp	Pago en especie
+	fid	Arrendamiento en Fideicomiso
+	fin	Sector Financiero
+	hdr	Hidrocarburos
+	hip	Intereses Hipotecarios
+	ine	INE (Instituto Nacional Electoral)
+	int	Intereses por Rendimiento de Inversiones
+	ley	Leyendas fiscales
+	loc	Otros derechos e impuestos locales
+	nom	Recibo de pago de Nóminas*
+	not	Notarios públicos
+	pag	Recepción de Pagos*
+	pex	Pagos a Extranjeros
+	pre	Premios
+	ret	Planes de Retiro
+	rsv	Renovación y sustitución de vehículos
+	spc	Servicios Parciales de Construcción
+	spe	SPEI de tercero a tercero
+	spt	Servicios de Plataformas Tecnológicas
+	tfd	Timbre Fiscal Digital
+	tur	Turista pasajero extranjero
+	usd	Vehículo Usado
+	val	Vales de Despensa
+
+	Complementos Concepto:
+		3os	Terceros
+		edu	Instituciones educativas privadas
+		iep	Acreditamiento del IEPS
+		nue	Venta de vehículos nuevos
+
 ######	Catálogos:
 
 	c_Actividad.xlsx				hdr
@@ -115,51 +160,6 @@
 		ligas... habrá que mantenerlos actusptzados manualmente, mientras se
 		estabiliza el sitio.
 		
-###### Complementos
-	
-	acc	Enajenación de Acciones
-	aer	Aerolíneas
-	art	Obras de Arte Plásticas y Antigüedades
-	cce	Comercio Exterior
-	cfd	CFDI Registro fiscal
-	cmb	Consumo de Combustibles
-	coo	Persona Física integrante de Coordinados
-	des	Certificado de Destrucción
-	det	Sector de Ventas al Detalle
-	div	Compra Venta de Divisas
-	don	Donatarias
-	drv	Operaciones con Derivados
-	ecc	Estado de cuenta de combustibles monederos electrónicos
-	esp	Pago en especie
-	fid	Arrendamiento en Fideicomiso
-	fin	Sector Financiero
-	hdr	Hidrocarburos
-	hip	Intereses Hipotecarios
-	ine	INE (Instituto Nacional Electoral)
-	int	Intereses por Rendimiento de Inversiones
-	ley	Leyendas fiscales
-	loc	Otros derechos e impuestos locales
-	nom	Recibo de pago de Nóminas*
-	not	Notarios públicos
-	pag	Recepción de Pagos*
-	pex	Pagos a Extranjeros
-	pre	Premios
-	ret	Planes de Retiro
-	rsv	Renovación y sustitución de vehículos
-	spc	Servicios Parciales de Construcción
-	spe	SPEI de tercero a tercero
-	spt	Servicios de Plataformas Tecnológicas
-	tfd	Timbre Fiscal Digital
-	tur	Turista pasajero extranjero
-	usd	Vehículo Usado
-	val	Vales de Despensa
-
-	Complementos Concepto:
-		3os	Terceros
-		edu	Instituciones educativas privadas
-		iep	Acreditamiento del IEPS
-		nue	Venta de vehículos nuevos
-
 ###### Estructura simplificada del XML (cfdv33.xsd) del cfdi:
 
 	Tipos de Campo:
