@@ -197,30 +197,30 @@
 					
 				Conceptos
 					{
-						Concepto
+					   Concepto
+						{
+						   Impuestos
 							{
-								Impuestos
-									{
-										Traslados
-											{
-												Traslado
-													Base                f[8.6]
-													Impuesto            e[3]
-													TipoFactor          s[7]
-													TasaOCuota          f[8.6]
-													Importe             f[]
-											}
+							   Traslados
+								{
+								   Traslado
+									Base                                f[8.6]
+									Impuesto                            e[3]
+									TipoFactor                          s[7]
+									TasaOCuota                          f[8.6]
+									Importe                             f[]
+								}
 											 
-										Retenciones
-											{
-												Retención
-													Base                f[8.6]
-													Impuesto            e[3]
-													TipoFactor          s[7]
-													TasaOCuota          f[8.6]
-													Importe             f[]
-											}
-									}
+							   Retenciones
+								{
+								   Retención
+									Base                                f[8.6]
+									Impuesto                            e[3]
+									TipoFactor                          s[7]
+									TasaOCuota                          f[8.6]
+									Importe                             f[]
+								}
+							}
 									 
 								InformacionAduanera
 									NumeroPedimento                     e[21]
@@ -246,7 +246,7 @@
 									ValorUnitario                       f[]
 									Importe                             f[]
 							}
-								ClaveProdServ                               e[8]
+							ClaveProdServ                                       e[8]
 							NoIdentificacion                                    s[100]
 							Cantidad                                            f[8.6]
 							ClaveUnidad                                         e[3]
@@ -286,21 +286,21 @@
 				
 			}
 			
-			Version                                                     v[3.3]
-			Serie                                                       s[25]
-			Folio                                                       s[40]
-			Fecha                                                       d[19]
-			Sello                                                       s[]
-			FormaPago                                                   e[2]
-			NoCertificado                                               s[20]
-			Certificado                                                 s[]
-			CondicionesDePago                                           s[1000]
-			SubTotal                                                    f[]
-			Descuento                                                   f[]
-			Moneda                                                      s[3]
-			TipoCambio                                                  f[8.6]
-			Total                                                       f[]
-			TipoDeComprobante                                           s[1]
-			MetodoPago                                                  s[3]
-			LugarExpedicion                                             e[5]
-			Confirmacion                                                s[5]
+			Version                                                                             v[3.3]
+			Serie                                                                               s[25]
+			Folio                                                                               s[40]
+			Fecha                                                                               d[19]
+			Sello                                                                               s[]
+			FormaPago                                                                           e[2]
+			NoCertificado                                                                       s[20]
+			Certificado                                                                         s[]
+			CondicionesDePago                                                                   s[1000]
+			SubTotal                                                                            f[]
+			Descuento                                                                           f[]
+			Moneda                                                                              s[3]
+			TipoCambio                                                                          f[8.6]
+			Total                                                                               f[]
+			TipoDeComprobante                                                                   s[1]
+			MetodoPago                                                                          s[3]
+			LugarExpedicion                                                                     e[5]
+			Confirmacion                                                                        s[5]
