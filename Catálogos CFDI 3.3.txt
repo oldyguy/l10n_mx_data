@@ -1,22 +1,86 @@
 ﻿[$og 2019-07-08]:
 
-	Archivo para facilitar la comprensión del esquema cfdv33.xsd del SAT
-		s[#]:	Campo alfanumérico con # posiciones
-		s[]:	Campo alfanumérico sin # de posiciones especificado
-		e[#]:	Campo numérico entero con # posiciones
-		f[#.%]: Campo numérico flotante con # posiciones y % decimales
-		f[]:	Campo numérico flotante sin # de posiciones especificado
-		d[#]:	Campo de tipo fecha con # posiciones
-		u[#]:	Campo de tipo UUID con # posiciones
-		v[3.3]:	Campo numérico flotante con valor 3.3 (versión del CFDI)
-		{}:		Grupo de datos repetibles
+	Estructura:
+		cat				Catálogos en Excel (.XLSX)
+		cpl				Ayudas y documentos técnicos de cada Complemento
+		wrk				Documentos de trabajo relativos a la Locsptzación
+		xml				Archivos XLST y XSD de cada Complemento
 
-	En el archivo tdCFDI.xsd se definen todos los tipos de campos utilizados
-	en el archivo cfdv33.xsd
+	Catálogos:
+		c_Actividad.xlsx						hdr
+		c_Aduana.xlsx							hdr	tfd
+		c_Banco.xlsx							nom
+		c_ClavePagoPedimento.xlsx				hdr
+		c_ClavePedimento.xlsx					cce	hdr
+		c_ClaveProdServ.xlsx					cfd
+		c_ClaveTipoCombustible.xlsx				ecc	cmb
+		c_ClaveUnidad.xlsx						cfd	tfd
+		c_CodigoPostal.xlsx						cce	cfd
+		c_Colonia.xlsx							cce
+		c_CveRetenc								spt
+		c_EntidadesFederativas					spt
+		c_Estado.xlsx							cce
+		c_FormaPago.xlsx						cfd	pag	tfd
+		c_FormaPagoServ.xlsx					spt
+		c_FraccionArancelaria.xlsx				cce
+		c_Impuesto.xlsx							cfd	pag
+		c_INCOTERM.xlsx							cce
+		c_Localidad.xlsx						cce
+		c_Mes.xlsx								hdr
+		c_MetodoPago.xlsx						cfd	pag
+		c_Moneda.xlsx							cfd	pag
+		c_MotivoTraslado.xlsx					cce
+		c_Municipio.xlsx						cce
+		c_NumPedimentoAduana.xlsx				hdr	tfd
+		c_OrigenRecurso.xlsx					nom
+		c_Periodicidad							spt
+		c_Paises.xlsx							spt
+		c_Pais.xlsx								cce	cfd
+		c_PatenteAduanal.xlsx					hdr	tfd
+		c_PeriodicidadPago.xlsx					nom
+		c_RangoMenRet.xlsx						spt
+		c_RangoSemRet.xlsx						spt
+		c_RegimenFiscal.xlsx					cfd
+		c_RiesgoPuesto.xlsx						nom
+		c_SubActividad.xlsx						hdr
+		c_SubTipoServ.xlsx						spt
+		c_Tarea.xlsx							hdr
+		c_TasaCuota.xlsx						spt
+		c_TasaOCuota.xlsx						pag	tfd
+		c_TipoAportODep.xlsx					ret
+		c_TipoCadenaPago.xlsx					pag
+		c_TipoContrato.xlsx						nom
+		c_TipoContribuyenteSujetoRetenc			spt
+		c_TipoDeComprobante.xlsx				cfd
+		c_TipoDeduccion.xlsx					nom
+		c_TipoDeImpuesto						spt
+		c_TipoDeServ.xlsx						spt
+		c_TipoDividendoUtilidadDistrib			spt
+		c_TipoFactor.xlsx						cfd	pag
+		c_TipoHoras.xlsx						nom
+		c_TipoImpuesto							spt
+		c_TipoIncapacidad.xlsx					nom
+		c_TipoJornada.xlsx						nom
+		c_TipoNomina.xlsx						nom
+		c_TipoOperacion.xlsx					cce
+		c_TipoOtroPago.xlsx						nom
+		c_TipoPercepcion.xlsx					nom
+		c_TipoRegimen.xlsx						nom
+		c_TipoRelacion.xlsx						cfd
+		c_TipoSerie.xlsx						des
+		c_UnidadAduana.xlsx						cce
+		c_UsoCFDI.xlsx							cfd
+
+		Pendientes:
+			c_CaracterísticasDeObraoPieza.xlsx	art
+			c_TAR.xlsx							iep
+			c_TipoBien.xlsx						art
+			c_TipoDecreto.xlsx					rsv
+			c_TipoVehiculo_r.xlsx				rsv
+			c_TipoVehiculo_s.xlsx				rsv
+			c_TituloAdquirido.xlsx				art
+			c_VehiculoEnajenado.xlsx			rsv
 	
-	El archivo catCFDI.xsd contiene los catálogos utilizados para la
-	generación de CFDIs.
-
 	Links:
 		Anexo 20:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm
 		XSD:			http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd
@@ -25,102 +89,124 @@
 		Combustible:	http://www.sat.gob.mx/sitio_internet/cfd/EstadoDeCuentaCombustible/ecc11.xsd
 		PACs:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/proveedores_autorizados_certificacion.htm
 
+	Notas:
+		(1)	Los complementos identificados con * siguen apareciendo en el apartado 
+			de complementos, aunque la guía del anexo 20 de la versión 3.3, ahora indica
+			que son un tipo de CFDI.  
+			Fuente: https://contadormx.com/2017/09/04/cfdi-complemento-obligatorio-sat
+		(2)	Se están integrando los archivos de datos, en vez de las ligas, porque
+			están cambiando la estructura del sitio web del SAT y se han estado perdiendo
+			ligas... habrá que mantenerlos actusptzados manualmente, mientras se
+			estabiliza el sitio.
+
 	Catálogos:
 	
-		Básicos
+		c_Aduana:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls	
+		c_Banco:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls	
+		c_ClavePedimento:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_ClavePedimento.xls			
+		c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls			
+		c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls		
+		c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls		
+		c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_Colonia:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Colonia.xls	
+		c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls	
+		c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls		
+		c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls				
+		c_Impuesto:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls	
+		c_INCOTERM:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_INCOTERM.xls	
+		c_Locsptdad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Locsptdad.xls		
+		c_MetodoPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls		
+		c_Moneda:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls	
+		c_MotivoTraslado:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_MotivoTraslado.xls			
+		c_Municipio:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Municipio.xls		
+		c_NumPedimentoAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls				
+		c_OrigenRecurso:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_Pais:					http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+		c_PatenteAduanal		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls			
+		c_PeriodicidadPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_RegimenFiscal:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_RiesgoPuesto:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TasaOCuota:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls		
+		c_TipoCadenaPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls			
+		c_TipoContrato:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoDeComprobante:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls				
+		c_TipoDeduccion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls		
+		c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls		
+		c_TipoHoras:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoIncapacidad:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_TipoJornada:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoNomina:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoOperacion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_TipoOperacion.xls			
+		c_TipoOtroPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoPercepcion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls			
+		c_TipoRegimen:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catNomina.xls		
+		c_TipoRelacion:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls		
+		c_UnidadAduana:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadAduana.xls		
+		c_UnidadMedidaAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadMedidaAduana.xls				
+		c_UsoCFDI:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls	
+	
 		
-			c_Aduana:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_ClavePedimento:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_ClavePedimento.xls
-			c_ClaveProdServ:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_ClaveUnidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_CodigoPostal:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_Colonia				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Colonia.xls
-			c_Estado:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/C_Estado.xls
-			c_FormaPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_FraccionArancelaria:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_FraccionArancelaria.xls
-			c_Impuesto:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_INCOTERM:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_INCOTERM.xls
-			c_Localidad:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Localidad.xls
-			c_MetodoPago:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_Moneda:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_MotivoTraslado:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_MotivoTraslado.xls
-			c_Municipio:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Municipio.xls
-			c_NumPedimentoAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_Pais:					http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_Pais.xls
-			c_PatenteAduanal		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_RegimenFiscal:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_RegimenFiscal.xls
-			c_TasaOCuota:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_TipoCadenaPago:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_TipoDeComprobante:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_TipoFactor:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catPagos.xls
-			c_TipoOperacion:		http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_TipoOperacion.xls
-			c_TipoRelacion:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
-			c_UnidadAduana:			http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadAduana.xls
-			c_UnidadMedidaAduana:	http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/c_UnidadMedidaAduana.xls
-			c_UsoCFDI:				http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls
+	Complementos
+	
+		acc		Enajenación de Acciones
+		aer		Aerolíneas
+		art		Obras de Arte Plásticas y Antigüedades
+		cce		Comercio Exterior
+		cfd		CFDI Registro fiscal
+		cmb		Consumo de Combustibles
+		coo		Persona Física integrante de Coordinados
+		des		Certificado de Destrucción
+		det		Sector de Ventas al Detalle
+		div		Compra Venta de Divisas
+		don		Donatarias
+		drv		Operaciones con Derivados
+		ecc		Estado de cuenta de combustibles monederos electrónicos
+		esp		Pago en especie
+		fid		Arrendamiento en Fideicomiso
+		fin		Sector Financiero
+		hdr		Hidrocarburos
+		hip		Intereses Hipotecarios
+		ine		INE (Instituto Nacional Electoral)
+		int		Intereses por Rendimiento de Inversiones
+		ley		Leyendas fiscales
+		loc		Otros derechos e impuestos locales
+		nom		Recibo de pago de Nóminas*
+		not		Notarios públicos
+		pag		Recepción de Pagos*
+		pex		Pagos a Extranjeros
+		pre		Premios
+		ret		Planes de Retiro
+		rsv		Renovación y sustitución de vehículos
+		spc		Servicios Parciales de Construcción
+		spe		SPEI de tercero a tercero
+		spt		Servicios de Plataformas Tecnológicas
+		tfd		Timbre Fiscal Digital
+		tur		Turista pasajero extranjero
+		usd		Vehículo Usado
+		val		Vales de Despensa
 		
-		Complementos
-		
-			Nota:	Los identificados con * siguen apareciendo en el apartado de complementos,
-					aunque la guía del anexo 20 de la versión 3.3, ahora indica que son un 
-					tipo de CFDI.  
-					Fuente: https://contadormx.com/2017/09/04/cfdi-complemento-obligatorio-sat
-		
-			Timbre Fiscal Digital (TDF)
-			Donatarias
-			Compra venta de divisas
-			Otros derechos e impuestos
-			Leyendas fiscales
-			Persona física integrante de coordinado
-			Turista pasajero extranjero
-			SPEI de tercero a tercero
-			Sector de ventas al detalle (detallista)
-			CFDI Registro fiscal
-			Recibo de pago de Nóminas*
-				Régimen de Contratación del trabajador
-				Bancos
-				Riesgo Puesto
-				Atributo: TipoPercepcion
-				Atributo: TipoDeduccion
-				Tipo de Incapacidad
-			Estado de cuenta de combustibles monederos electrónicos
-			Pago en especie
-			Vales de despensa
-			Consumo de combustibles
-			Aerolíneas
-			Notarios públicos
-			Vehículo usado
-			Servicios parciales de construcción
-			Renovación y sustitución de vehículos
-			Certificado de destrucción
-			Obras de artes plásticas y antigüedades
-			INE
-			Comercio exterior
-				Claves de pedimento
-				Colonias
-				Códigos postales
-				Estados
-				Fracción arancelaria
-				Términos internacionales de comercio (INCOTERM)
-				Localidades
-				Moneda
-				Motivo traslado
-				Municipios
-				Países
-				Régimen fiscal
-				Tipo de operación
-				Unidades de medida
-			Recepción de pagos*
+	Complementos Concepto:
+		3os		Terceros
+		edu		Instituciones educativas privadas
+		iep		Acreditamiento del IEPS
+		nue		Venta de vehículos nuevos
 
-		Complementos Concepto:
-			Instituciones educativas privadas
-			Venta de vehículos
-			Terceros
-			Acreditamiento del IEPS
-		
-		
-	Estructura XML:
+	Estructura simplificada del XML (cfdv33.xsd) del cfdi:
+
+		Tipos de Campo:
+			s[#]:		Alfanumérico con # posiciones
+			s[]:		Alfanumérico sin # de posiciones especificado
+			e[#]:		Numérico entero con   # posiciones
+			f[#.%]: 	Numérico flotante con # posiciones y % decimales
+			f[]:		Numérico flotante sin # de posiciones especificado
+			d[#]:		Fecha con # posiciones
+			u[#]:		UUID  con # posiciones
+			v[3.3]:		Numérico flotante con valor 3.3 (versión del CFDI)
+			{}:			Grupo de datos repetible
+			
 		cfdi:
+
 			Comprobante
 				{
 					CfdiRelacionado
@@ -254,5 +340,3 @@
 				MetodoPago                                                  s[3]
 				LugarExpedicion                                             e[5]
 				Confirmacion                                                s[5]
-				
-
