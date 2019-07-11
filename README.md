@@ -163,15 +163,15 @@
 ###### Estructura simplificada del XML (cfdv33.xsd) del cfdi:
 
 	Tipos de Campo:
-		s[#]:		Alfanumérico con # posiciones
-		s[]:		Alfanumérico sin # de posiciones especificado
-		e[#]:		Numérico entero con   # posiciones
-		f[#.%]: 	Numérico flotante con # posiciones y % decimales
-		f[]:		Numérico flotante sin # de posiciones especificado
-		d[#]:		Fecha con # posiciones
-		u[#]:		UUID  con # posiciones
-		v[3.3]:		Numérico flotante con valor 3.3 (versión del CFDI)
-		{}:		Grupo de datos repetible
+	s[#]	Alfanumérico con # posiciones
+	s[]	Alfanumérico sin # de posiciones especificado
+	e[#]	Numérico entero con   # posiciones
+	f[#.%] 	Numérico flotante con # posiciones y % decimales
+	f[]	Numérico flotante sin # de posiciones especificado
+	d[#]	Fecha con # posiciones
+	u[#]	UUID  con # posiciones
+	v[3.3]	Numérico flotante con valor 3.3 (versión del CFDI)
+	{}	Grupo de datos repetible
 			
 	cfdi:
 
@@ -179,21 +179,21 @@
 			{
 				CfdiRelacionado
 					{
-						UUID                                            u[36]
+						UUID                                                        u[36]
 					}
-					TipoRelacion                                        e[2]
+					TipoRelacion                                                        e[2]
 				
 				Emisor
-					Rfc                                                 s[13]
-					Nombre                                              s[254]
-					RegimenFiscal                                       e[3]
+					Rfc                                                                 s[13]
+					Nombre                                                              s[254]
+					RegimenFiscal                                                       e[3]
 					
 				Receptor
-					Rfc                                                 s[13]
-					Nombre                                              s[254]
-					ResidenciaFiscal                                    s[3]
-					NumRegIdTrib                                        s[40]
-					UsoCFDI                                             s[3]
+					Rfc                                                                 s[13]
+					Nombre                                                              s[254]
+					ResidenciaFiscal                                                    s[3]
+					NumRegIdTrib                                                        s[40]
+					UsoCFDI                                                             s[3]
 					
 				Conceptos
 					{
@@ -235,7 +235,7 @@
 								Parte
 									{
 										InformacionAduanera
-											NumeroPedimento             e[21]
+											NumeroPedimento     e[21]
 									}
 									 
 									ClaveProdServ                       e[8]
@@ -247,14 +247,14 @@
 									Importe                             f[]
 							}
 								ClaveProdServ                               e[8]
-							NoIdentificacion                            s[100]
-							Cantidad                                    f[8.6]
-							ClaveUnidad                                 e[3]
-							Unidad                                      s[20]
-							Descripcion                                 s[1000]
-							ValorUnitario                               f[]
-							Importe                                     f[]
-							Descuento                                   f[]
+							NoIdentificacion                                    s[100]
+							Cantidad                                            f[8.6]
+							ClaveUnidad                                         e[3]
+							Unidad                                              s[20]
+							Descripcion                                         s[1000]
+							ValorUnitario                                       f[]
+							Importe                                             f[]
+							Descuento                                           f[]
 					}
 					Impuestos
 					{
@@ -274,14 +274,14 @@
 							}
 					}
 					
-					TotalImpuestosRetenidos                             f[]
-					TotalImpuestosTrasladados                           f[]
+					TotalImpuestosRetenidos                                             f[]
+					TotalImpuestosTrasladados                                           f[]
 				
 				{
-					Complemento                                         s[]
+					Complemento                                                         s[]
 				}
 					{
-					Addenda                                             s[]
+					Addenda                                                             s[]
 				}
 				
 			}
