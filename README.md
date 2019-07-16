@@ -1,6 +1,8 @@
 # l10n_mx_data
- Data needed in Mexico's CFDI (EDI) localization (OCA)<br>
+ Data needed for Mexico's CFDI (EDI) localization (OCA) v3.3 and later.<br>
  \[$og  V1_04  2019-07-16\]
+
+## Contents:<br>
 
 ######	Carpetas:
 	cat		Catálogos en Excel (.XLSX individualizados por tabla y .XLS originales del SAT)
@@ -59,7 +61,7 @@
 	val	Vales de Despensa
 
 	Complementos Concepto:
-		3os	Terceros
+		ter	Terceros
 		edu	Instituciones educativas privadas
 		iep	Acreditamiento del IEPS
 		nue	Venta de vehículos nuevos
@@ -315,3 +317,11 @@
 			MetodoPago                                                                          s[3]
 			LugarExpedicion                                                                     e[5]
 			Confirmacion                                                                        s[5]
+
+
+## Disclaimer:<br>
+_This repository contains public information from several sources.  Although it's preferable to link them to the original source to minimize document maintenance, we found that the Mexican government tax agency (SAT) recently modified its pages creating a number of broken links along related websites.<br>
+To facilitate this development, we searched for documents that contribute with something relevant and included them physically in this repository.<br>
+Despite our efforts to use only original and truthful sources, in addition to keeping the repository updated, over time there may be changes or inconsistencies that we still haven't noticed, so the information is publicly offered "as is", without a link or any other kind of legal obligation on our part.<br>
+Because this repository contains public information as guidance only, taken from public sites like SAT or third parties, some documents contain logos and / or formats that are the property of the original owner;  We hereby endorse our respect for copyright and therefore we have retained its original format, which includes the source.  We'll be glad to receive any update, comment or indication about, and act accordingly our mutual interests._
+
