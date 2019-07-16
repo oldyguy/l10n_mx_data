@@ -1,6 +1,6 @@
 # l10n_mx_data
  Data needed for Mexico's CFDI (EDI) localization (OCA) v3.3 and later.<br>
- \[$og  V1_04  2019-07-16\]
+ \[$og  V1_05  2019-07-16\]
 
 ## Contents:<br>
 
@@ -317,6 +317,16 @@
 			MetodoPago                                                                          s[3]
 			LugarExpedicion                                                                     e[5]
 			Confirmacion                                                                        s[5]
+
+		
+###### Mejoras sugeridas, basadas en la localización de EE:
+
+- [ ] Agregar _UsoCFDI_ al Contacto, cuando el campo _Es Cliente?_ sea verdadero, además de que tenga un valor default y se herede a la Factura borrador.
+- [ ] Llenar el cammpo _Codigo_ en posiciones fiscales (601, 602, etc..)
+- [ ] Llenar el campo _Factor TASA_ en los impuestos
+- [ ] Utilizar el idioma _es\_MX_, en lugar de _es\_ES_ al crear la base de datos en _Español_, con la localización mexicana.
+- [ ] Cambiar el default de impuestos a 16% de IVA en Ventas y Compras (actualmente son 0% y 4%, que muy pocos usan).
+
 
 
 ## Disclaimer:<br>
