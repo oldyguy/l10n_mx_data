@@ -1,12 +1,23 @@
 # l10n_mx_data
  Data needed in Mexico's CFDI (EDI) localization (OCA)<br>
- \[$og  V1_03  2019-07-10\]
+ \[$og  V1_04  2019-07-16\]
 
 ######	Carpetas:
-	cat	Catálogos en Excel (.XLSX)
-	cpl	Ayudas y documentos técnicos de cada Complemento
-	wrk	Documentos de trabajo relativos a la Localización
-	xml	Archivos XLST y XSD de cada Complemento
+	cat		Catálogos en Excel (.XLSX individualizados por tabla y .XLS originales del SAT)
+	cpl		Ayudas y documentos técnicos de cada Complemento
+	wrk		Documentos de trabajo para la Localización
+	    ade		    Addendas
+	    ant		    Anticipos
+	    can		    Cancelaciones
+	    cfd		    CFDI
+	    cnn		    Conectores
+	    err		    Errores
+	    ncr		    Nota de Crédito
+	    pac		    PACs
+	    rtn		    Retenciones
+	    trs		    Traslado
+	    wbs		    WebServices
+	xml		Archivos XLST, XSD y ejemplos XML de CFDIs y complementos
 
 ###### Complementos
 	
