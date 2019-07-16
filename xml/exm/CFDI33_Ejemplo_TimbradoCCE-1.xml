@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3&#xA;  http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+    Version="3.3" Serie="MT" Folio="60540" Fecha="2018-11-28T16:41:54"
+    Sello="IvGHNt7KiGZ68OereZGUko46FQFI6HQmAn5xAp8BDmZPpI0IArRzrKAT6hO84LVwZ6pPuZiebUVdi06xtsmnRHvZE0a/MGuAfayx5WCGPLo/4aovoOb88fZDf2B5sVrlcYsn08nWjVPklmyHUqytqKRwk9XBxH9d68Hhq05oN5EHW9nkXgQCRSONn0MWB3hUjaJP8XzrcxnTzeUpJyMbZi0p6VqFYPvZ/2fsURVGrsGKBOQFfMOuyVPDoisKIgISYDuF4QSEyR5nCVC5i2UEHvYCAdro/QTiSC6lzMM1L7t91DBVnpYW7ldkus/0Fd1Pxl4Eb+yBIfhil6jFwLx+YA=="
+    FormaPago="99" NoCertificado="30001000000300023708"
+    Certificado="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"
+    CondicionesDePago="NETO 30 DIAS FECHA EMBARQUE" SubTotal="2632.06" Moneda="USD"
+    TipoCambio="18.45420" Total="2632.06" TipoDeComprobante="I" MetodoPago="PPD"
+    LugarExpedicion="66266" xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="Empresa Emisora del CFDI" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="XEXX010101000" Nombre="Empresa Receptora del CFDI" ResidenciaFiscal="USA"
+        NumRegIdTrib="205666012" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="30264304" NoIdentificacion="84314" Cantidad="68.012"
+            ClaveUnidad="LBR" Unidad="CWT" Descripcion="GALVANIZED WIRE HT.1055&amp;quot; 2000L"
+            ValorUnitario="38.700000" Importe="2632.060000"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="FA358129-F55B-40B1-829F-6D57D4346BF0"
+            FechaTimbrado="2018-11-29T11:10:23" RfcProvCertif="AAA010101AAA"
+            SelloCFD="IvGHNt7KiGZ68OereZGUko46FQFI6HQmAn5xAp8BDmZPpI0IArRzrKAT6hO84LVwZ6pPuZiebUVdi06xtsmnRHvZE0a/MGuAfayx5WCGPLo/4aovoOb88fZDf2B5sVrlcYsn08nWjVPklmyHUqytqKRwk9XBxH9d68Hhq05oN5EHW9nkXgQCRSONn0MWB3hUjaJP8XzrcxnTzeUpJyMbZi0p6VqFYPvZ/2fsURVGrsGKBOQFfMOuyVPDoisKIgISYDuF4QSEyR5nCVC5i2UEHvYCAdro/QTiSC6lzMM1L7t91DBVnpYW7ldkus/0Fd1Pxl4Eb+yBIfhil6jFwLx+YA=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="fbJNeuy6TMdGRDEiKSTFSqnXIU4ZqYpuF5AhFt/Ms6rh4RtIMLeu+tV0ht2h5YYS9Yh9NQQZT+fXPc5x90zaOTWfK4PmHD/RJ5dMmKC2YWM3vZRDAp8GfNkEGx7rGqGmx0ZcBpUCGxaZ1UXg25CL6QdtlPLDL2qBQqvXidVgJ28="/>
+        <cce11:ComercioExterior
+            xsi:schemaLocation="http://www.sat.gob.mx/ComercioExterior11&#xA;      http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd"
+            Version="1.1" TipoOperacion="2" ClaveDePedimento="A1" CertificadoOrigen="0"
+            Incoterm="FAS" Subdivision="0" TipoCambioUSD="18.4542" TotalUSD="2632.06"
+            xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <cce11:Emisor>
+                <cce11:Domicilio Calle="AV. REVOLUCIÓN" NumeroExterior="2333" Colonia="0953"
+                    Localidad="02" Municipio="019" Estado="NLE" Pais="MEX" CodigoPostal="66269"/>
+            </cce11:Emisor>
+            <cce11:Receptor>
+                <cce11:Domicilio Calle="WASL IRVINGTON" NumeroExterior="8411" Colonia="-"
+                    Municipio="Houston" Estado="TX" Pais="USA" CodigoPostal="77022"/>
+            </cce11:Receptor>
+            <cce11:Destinatario NumRegIdTrib="205666012" Nombre="DESTINATARIO DEL CFDI">
+                <cce11:Domicilio Calle="13704 NORTH UNITEC CR" Municipio="LAREDO" Estado="TX"
+                    Pais="USA" CodigoPostal="78045"/>
+            </cce11:Destinatario>
+            <cce11:Mercancias>
+                <cce11:Mercancia NoIdentificacion="84314" FraccionArancelaria="72172099"
+                    CantidadAduana="3085.00" UnidadAduana="01" ValorUnitarioAduana="0.85"
+                    ValorDolares="2632.06"/>
+            </cce11:Mercancias>
+        </cce11:ComercioExterior>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

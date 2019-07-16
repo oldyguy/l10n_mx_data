@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+    xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    Version="3.3" Serie="S" Folio="17834" Fecha="2018-05-01T12:02:13"
+    Sello="XsmCu/2Ep5GwRKP3D/TSwgmftRibn8cjYfNjd6QsDPz82Zc9vQrWvZHFnVYYi6YhAy6DwfShK9CWv4YFRhfDWEfC6jZK0tiQTAsA/7CNRyYuF7z1qPM2Y2H0H6hLlakURT/YSKHMbpcs9WDTQ5AHNFkdebV/mgD81jYlUx2RFU9Mjmoj3gH7ejEmbzvndGu8wmYHCMH7VLbtyITu1punm5QQLE6agvgzXHqNjtFKyMzjNZ4DTO0g93ZFYwr6rZz+p6G1pSdaezoqzIIgEwfjE+uQz738zGdagwD7Ftj3z7VVIzwbqjpJB4f16FmJMsob60oGw6m1SXJe9M239FZong=="
+    FormaPago="01" NoCertificado="30001000000300023708"
+    Certificado="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"
+    CondicionesDePago="30 Días" SubTotal="29831.63" Moneda="MXN" Total="34395.88"
+    TipoDeComprobante="E" MetodoPago="PUE" LugarExpedicion="25290">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="PRUEBAS SA" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="PRUEBA 2 SA" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="E48"
+            Descripcion="Estimación No1 G (UNO G)  del convenio específico PEMEX REFINACIÓN-COMIMSA NoDCPA-SO-SCAR-SUD-GTD-E-34-15 denominado Redistribución de recursos y ampliación al plazo de ejecición del convenio específico de prestación de servicios No DCPA-SO-SCAR-SUD-GTD-E-34-15 `Apoyo a la coordinación de proyectos supervenientes y residencias de obra para labores de atención a emergencias, caracterización y remediación por derrame de hidrocarburos en los sectores ductos Bajío, Valle de México y Catalina, de la subgerencia de transporte por ducto centro de PEMEX Refinación, para el año 2015`&#xD;&#xA;CENTRO GESTOR:57251500&#xD;&#xA;POSICION FINANCIERA:235541500&#xD;&#xA;AREA FUNCIONAL: M00J1443JC000&#xD;&#xA;SOLICITUD DE PEDIDO: 10355869&#xD;&#xA;PERIODO DE LA ESTIMACIÓN: 11 de Diciembre de 2015 al 31 de Diciembre de 2015&#xD;&#xA;VIGENCIA DEL CONTRATO: 11  de Diciembre de 2015 al 31 de Enero de 2016"
+            ValorUnitario="29831.63" Importe="29831.63">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="29831.63" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.160000" Importe="4773.06"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="4773.06">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4773.06"
+            />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="D36034A4-60BE-4D50-AB91-CBDED7422786"
+            FechaTimbrado="2018-05-02T14:30:43" RfcProvCertif="AAA010101AAA"
+            SelloCFD="XsmCu/2Ep5GwRKP3D/TSwgmftRibn8cjYfNjd6QsDPz82Zc9vQrWvZHFnVYYi6YhAy6DwfShK9CWv4YFRhfDWEfC6jZK0tiQTAsA/7CNRyYuF7z1qPM2Y2H0H6hLlakURT/YSKHMbpcs9WDTQ5AHNFkdebV/mgD81jYlUx2RFU9Mjmoj3gH7ejEmbzvndGu8wmYHCMH7VLbtyITu1punm5QQLE6agvgzXHqNjtFKyMzjNZ4DTO0g93ZFYwr6rZz+p6G1pSdaezoqzIIgEwfjE+uQz738zGdagwD7Ftj3z7VVIzwbqjpJB4f16FmJMsob60oGw6m1SXJe9M239FZong=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="0iNy/NP2Dstqiz19Jv4jXDQ77a62TQvJbG1BiX2EA7ZXs6ejlU+oo1yFTXHuitoTLpeWhFS9NEY8GTLg1huE6AteYTZmM5UelpgMlPV7Edjmo99uTTHd0UDemGvWbkVTnsjEq3y2ApRwiMKmyGtx9QogVj45UEVddbdKdi5cH3Y="/>
+        <implocal:ImpuestosLocales
+            xsi:schemaLocation="http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd"
+            xmlns:implocal="http://www.sat.gob.mx/implocal"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+            TotaldeTraslados="0.00" TotaldeRetenciones="208.81">
+            <implocal:RetencionesLocales ImpLocRetenido="5AlMillar" TasadeRetencion="0.5"
+                Importe="149.15"/>
+            <implocal:RetencionesLocales ImpLocRetenido="2AlMillar" TasadeRetencion="0.2"
+                Importe="59.66"/>
+        </implocal:ImpuestosLocales>
+    </cfdi:Complemento>
+</cfdi:Comprobante> 

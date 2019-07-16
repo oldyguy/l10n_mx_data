@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:detallista="http://www.sat.gob.mx/detallista"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"
+    Version="3.3" Serie="CH" Folio="8808" Fecha="2018-07-12T13:55:34"
+    Sello="T61jYwgfjSp3sQZQVj6/wRxApuI/ndkc7CJ5NcD4W1SrLIXUzsbDaoHd+AkcDDZjDGICpeLn02sl3YRmyhPW4d2+4Y/tGQeOuYB2a6RMxuXWrCTBjI4N591GhDHo7ztTDs0HKDyaq1niNryT5M8LU/w2NIbshqBG0udSD5zA0YDwmSrly1ewaOYghAu+QQwxWF3NG515Pz/YettFvs+V/KIHpyEdl+kUgnlOFJUHNqy1/vTe7gTOa5qH707EjIGlm1WfosNtaWYvu1XG8TGWW1TOAkl5NYDjIe+la8GcNbadeNYyBF0PQfMPwcC1k4uzNfuy6p4t0fGpKkMhTpL63w=="
+    FormaPago="03" NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="2034.16" Moneda="MXN" TipoCambio="1" Total="2359.63" TipoDeComprobante="I"
+    MetodoPago="PPD" LugarExpedicion="31100">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="PRUEBAS SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="RECEPTOR DE CFDI" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="40101825" NoIdentificacion="LSE-15GN" Cantidad="1.000000"
+            ClaveUnidad="H87" Unidad="PZA" Descripcion="CALENTADOR DE AGUA LSE-15GN"
+            ValorUnitario="2034.160000" Importe="2034.16">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2034.16" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.160000" Importe="325.47"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="325.47">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="325.47"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento xmlns:detallista="http://www.sat.gob.mx/detallista">
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="479485B9-7273-435D-9D05-D144B5FE477F"
+            FechaTimbrado="2018-07-13T16:39:03" RfcProvCertif="AAA010101AAA"
+            SelloCFD="T61jYwgfjSp3sQZQVj6/wRxApuI/ndkc7CJ5NcD4W1SrLIXUzsbDaoHd+AkcDDZjDGICpeLn02sl3YRmyhPW4d2+4Y/tGQeOuYB2a6RMxuXWrCTBjI4N591GhDHo7ztTDs0HKDyaq1niNryT5M8LU/w2NIbshqBG0udSD5zA0YDwmSrly1ewaOYghAu+QQwxWF3NG515Pz/YettFvs+V/KIHpyEdl+kUgnlOFJUHNqy1/vTe7gTOa5qH707EjIGlm1WfosNtaWYvu1XG8TGWW1TOAkl5NYDjIe+la8GcNbadeNYyBF0PQfMPwcC1k4uzNfuy6p4t0fGpKkMhTpL63w=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="oxv6bIK9f9Y5/sR4Ds06I6rFc3dRI3yAqmpgePe1V/+sESle+8MhPJyJwdPWXhxKZmsyKBQvGuG3wiuLlHer3I3eppPZh3aPHB9Qb6L2uhwCoqmtyWjm2EXFObw4mzWA/ToPaiGf9ttQZy4yWnLCndbb9FL78L9RfZI2fFt7fPE="/>
+        <detallista:detallista type="SimpleInvoiceType" documentStructureVersion="AMC8.1"
+            documentStatus="ORIGINAL" contentVersion="1.3.1">
+            <detallista:requestForPaymentIdentification>
+                <detallista:entityType>INVOICE</detallista:entityType>
+            </detallista:requestForPaymentIdentification>
+            <detallista:specialInstruction code="ZZZ"
+                ><detallista:text>DOS MIL TRESCIENTOS CINCUENTA Y NUEVE PESOS 63/100
+    M.N.</detallista:text></detallista:specialInstruction>
+            <detallista:orderIdentification>
+                <detallista:referenceIdentification type="ON">25695527</detallista:referenceIdentification>
+                <detallista:ReferenceDate>2017-11-19</detallista:ReferenceDate>
+            </detallista:orderIdentification>
+            <detallista:AdditionalInformation>
+                <detallista:referenceIdentification type="ATZ">8081</detallista:referenceIdentification>
+            </detallista:AdditionalInformation>
+            <detallista:DeliveryNote>
+                <detallista:referenceIdentification>5150596911</detallista:referenceIdentification>
+                <detallista:ReferenceDate>2017-11-21</detallista:ReferenceDate>
+            </detallista:DeliveryNote>
+            <detallista:buyer>
+                <detallista:gln>7504000107903</detallista:gln>
+                <detallista:contactInformation>
+                    <detallista:personOrDepartmentName>
+                        <detallista:text>0634</detallista:text>
+                    </detallista:personOrDepartmentName>
+                </detallista:contactInformation>
+            </detallista:buyer>
+            <detallista:seller>
+                <detallista:gln>0000000115853</detallista:gln>
+                <detallista:alternatePartyIdentification type="SELLER_ASSIGNED_IDENTIFIER_FOR_A_PARTY">115853</detallista:alternatePartyIdentification>
+            </detallista:seller>
+            <detallista:allowanceCharge settlementType="OFF_INVOICE"
+                allowanceChargeType="ALLOWANCE_GLOBAL">
+                <detallista:specialServicesType>AJ</detallista:specialServicesType>
+                <detallista:monetaryAmountOrPercentage>
+                    <detallista:rate base="INVOICE_VALUE">
+                        <detallista:percentage>0.00</detallista:percentage>
+                    </detallista:rate>
+                </detallista:monetaryAmountOrPercentage>
+            </detallista:allowanceCharge>
+            <detallista:lineItem type="SimpleInvoiceLineItemType" number="1">
+                <detallista:tradeItemIdentification>
+                    <detallista:gtin>LSE-15GN</detallista:gtin>
+                </detallista:tradeItemIdentification>
+                <detallista:alternateTradeItemIdentification type="BUYER_ASSIGNED"/>
+                <detallista:tradeItemDescriptionInformation language="ES">
+                    <detallista:longText>(CALENTADOR DE AGUA LSE-15GN</detallista:longText>
+                </detallista:tradeItemDescriptionInformation>
+                <detallista:invoicedQuantity unitOfMeasure="SERV">1.00</detallista:invoicedQuantity>
+                <detallista:grossPrice>
+                    <detallista:Amount>2034.16</detallista:Amount>
+                </detallista:grossPrice>
+                <detallista:netPrice>
+                    <detallista:Amount>2034.16</detallista:Amount>
+                </detallista:netPrice>
+                <detallista:totalLineAmount>
+                    <detallista:grossAmount>
+                        <detallista:Amount>2034.16</detallista:Amount>
+                    </detallista:grossAmount>
+                    <detallista:netAmount>
+                        <detallista:Amount>2034.16</detallista:Amount>
+                    </detallista:netAmount>
+                </detallista:totalLineAmount>
+            </detallista:lineItem>
+            <detallista:totalAmount>
+                <detallista:Amount>2359.63</detallista:Amount>
+            </detallista:totalAmount>
+            <detallista:TotalAllowanceCharge allowanceOrChargeType="ALLOWANCE">
+                <detallista:specialServicesType>AJ</detallista:specialServicesType>
+                <detallista:Amount>2034.16</detallista:Amount>
+            </detallista:TotalAllowanceCharge>
+        </detallista:detallista>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

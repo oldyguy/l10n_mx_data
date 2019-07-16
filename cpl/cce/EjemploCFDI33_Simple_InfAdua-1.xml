@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+    Version="3.3"
+    Sello="YDk5iqA/u8fACthS++6aXuYoUIbi3u9esWXJQWEPJnPaXp1WorVQtPGyre/SNAQgQVJlK3eEWCD5z8/5qPs30VxAFG12wsfQvnT9TVmmiLtBtDaTmnkPhXA9QVC7OaInnsMm2/mjiE8m6cEMSAdTGAXhZw7hNAH5z8eF0PWRJir646+0ULSX8AA2yksDA/DOMQgiSFL+79klCJ0WWuQFkbelqpuLp76uaOtg2OO6zyQwd2aN0hsjh5T4hnAb5xrs95UVKH+5p9nL1+0Lj4UeoznI8wKBRWo4JvVk7B+nDIkcj428TyMU7Pf455uHbxzEsFA+pUXikHrIY3jG19Pvjg=="
+    NoCertificado="30001000000300023708"
+    Certificado="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"
+    Serie="A" Folio="0090879102" Fecha="2018-07-12T15:19:24" FormaPago="02"
+    CondicionesDePago="21 días 3% - 30 d Neto" SubTotal="527.00" Descuento="138.10" Moneda="USD"
+    TipoCambio="18.89790" Total="451.12" TipoDeComprobante="I" MetodoPago="PUE"
+    LugarExpedicion="67350" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI"
+    xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="Pruebas SA de CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="Pruebas de timbrado" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="40151500" NoIdentificacion="FIX10E" Cantidad="2.000"
+            ClaveUnidad="H87" Unidad="PZA" Descripcion="MOTB.JET AQUAPAK FIX10E 1HP 1X127V"
+            ValorUnitario="176.0000" Importe="352.00" Descuento="85.60">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="259.76" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.160000" Importe="41.56"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="17  81  1757  7000561"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="40151500" NoIdentificacion="VENUS15" Cantidad="1.000"
+            ClaveUnidad="H87" Unidad="PZA" Descripcion="MOTB.HIDROMAS.AQUAPAK VENUS15 1.5HP 1X12"
+            ValorUnitario="175.0000" Importe="175.00" Descuento="52.50">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="129.14" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.160000" Importe="20.66"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="17  81  1757  7003573"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="62.22">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="62.22"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="91D1B6B1-254C-43E6-B1D5-E973AC962999"
+            FechaTimbrado="2018-07-13T17:28:14" RfcProvCertif="AAA010101AAA"
+            SelloCFD="YDk5iqA/u8fACthS++6aXuYoUIbi3u9esWXJQWEPJnPaXp1WorVQtPGyre/SNAQgQVJlK3eEWCD5z8/5qPs30VxAFG12wsfQvnT9TVmmiLtBtDaTmnkPhXA9QVC7OaInnsMm2/mjiE8m6cEMSAdTGAXhZw7hNAH5z8eF0PWRJir646+0ULSX8AA2yksDA/DOMQgiSFL+79klCJ0WWuQFkbelqpuLp76uaOtg2OO6zyQwd2aN0hsjh5T4hnAb5xrs95UVKH+5p9nL1+0Lj4UeoznI8wKBRWo4JvVk7B+nDIkcj428TyMU7Pf455uHbxzEsFA+pUXikHrIY3jG19Pvjg=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="1XA0ron8p69yjAENtFx18Yglmuncq5/ExdGphYBurBfLslpRR/9Yh9AUZ5H1ioqM8tpWjEPRz7/BQ/JmguuPuUg3h/89jlG3KLazfMpaOpchMcWo2GwDJGdNfryyALQKFgT1dpuXLktJChzOivOkbL6ri4fMKbNspqeSz4kUX68="
+        />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

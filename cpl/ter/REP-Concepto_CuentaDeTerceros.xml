@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pago10="http://www.sat.gob.mx/Pagos"
+  xmlns:terceros="http://www.sat.gob.mx/terceros"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/Pagos http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd"
+  Version="3.3"
+  Sello="UhampKA35dBr2sA2I6Bxqw2gQaq/VZLOcx1AFFUEHAvqOyeH3ciT62GFT1tsYOQHsm14KfwuL47XFxULgK0LYPD1LtVW4IXdiQgIfmFoIB7mUyPPM5gTvGYelYBibokRnKY+Jjk75KQf11ufv0nbHyY1rL4FZQ3MJc8LG903UDYXz0rxU7YVCDiRIUvPi1Bjbpb5vNw+eykJKyEMDKrTKexcFlekPcm11T20hsRw8q2ZQBgsxNW22MfJ4TKVk8nL6fB2R81Epzuaya/zbWJLEbbZoT78Iip8hV5wphKXHhTN8MC0HQz7E1cAQcrigYodyciKsO0gDPtRpg2agnC4Rg=="
+  NoCertificado="30001000000300023708"
+  Certificado="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"
+  Serie="RP" Folio="01" Fecha="2019-02-06T18:45:15" SubTotal="0" Moneda="XXX" Total="0"
+  TipoDeComprobante="P" LugarExpedicion="64000">
+  <cfdi:Emisor Rfc="AAA010101AAA" Nombre="Empresa Emisora del comprobante" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="Empresa Receptor del comprobante" UsoCFDI="P01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago"
+      ValorUnitario="0" Importe="0">
+      <cfdi:ComplementoConcepto>
+        <terceros:PorCuentadeTerceros version="1.1" rfc="LAN7008173R5" nombre="TERCERO">
+          <terceros:InformacionFiscalTercero calle="Av. Paseo de la Reforma" noExterior="164"
+            colonia="Juarez" localidad="Cuauhtemoc" municipio="Cuauhtemoc" estado="Ciudad de Mexico"
+            pais="Mexico" codigoPostal="64000"/>
+          <terceros:Impuestos/>
+        </terceros:PorCuentadeTerceros>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+      Version="1.1" UUID="10872621-9A1B-45C9-A594-75BCC82853BC" FechaTimbrado="2019-02-06T18:45:16"
+      RfcProvCertif="AAA010101AAA"
+      SelloCFD="UhampKA35dBr2sA2I6Bxqw2gQaq/VZLOcx1AFFUEHAvqOyeH3ciT62GFT1tsYOQHsm14KfwuL47XFxULgK0LYPD1LtVW4IXdiQgIfmFoIB7mUyPPM5gTvGYelYBibokRnKY+Jjk75KQf11ufv0nbHyY1rL4FZQ3MJc8LG903UDYXz0rxU7YVCDiRIUvPi1Bjbpb5vNw+eykJKyEMDKrTKexcFlekPcm11T20hsRw8q2ZQBgsxNW22MfJ4TKVk8nL6fB2R81Epzuaya/zbWJLEbbZoT78Iip8hV5wphKXHhTN8MC0HQz7E1cAQcrigYodyciKsO0gDPtRpg2agnC4Rg=="
+      NoCertificadoSAT="20001000000100005761"
+      SelloSAT="hcnmpICKm1o4Dr48yOLm7/s7iRJOPMx6DpcZJDyuefLDR6eHhRlnTQV2y6jgz9tTTOQ/jI2fhgOBBX0OkCj/384EeNsEjRXDqf1RR+pGjEIvabaj3Bfgyt0wQ8XB+87cCK+g6GGa0WG5zutMa2XG5d1s+N8K0NY/qqAZD1AxBA4="/>
+    <pago10:Pagos Version="1.0">
+      <pago10:Pago FechaPago="2018-09-21T12:00:00" FormaDePagoP="03" MonedaP="MXN" Monto="700.00">
+        <pago10:DoctoRelacionado IdDocumento="E04E52DE-54C5-460A-992D-09956445FDBC" Serie="A"
+          Folio="0001" MonedaDR="MXN" MetodoDePagoDR="PPD" NumParcialidad="1" ImpSaldoAnt="1000.00"
+          ImpPagado="700.00" ImpSaldoInsoluto="300.00"/>
+      </pago10:Pago>
+    </pago10:Pagos>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

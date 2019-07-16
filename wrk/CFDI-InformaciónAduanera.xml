@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    Certificado="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"
+    CondicionesDePago="De Contado" Fecha="2018-06-19T09:22:30" Folio="1709" FormaPago="99"
+    LugarExpedicion="64000" MetodoPago="PPD" Moneda="MXN" NoCertificado="30001000000300023708"
+    Sello="kbU4nQQxwSa9X0mmZH/0fUnfvmLfnSJTeLP6zGFxBpODZD/+0+yITx9znBax9co57vSfq9HFJd1HpB0TUcAIOc5KiPRyXcnLf1NrGXUbTkHrhMKfd3G7U/Js20RsLZ6Z69GxDuBd0NBAuSsxJwwPKA5K37W9GmwA5IyZ3Y7InJ6XdmbwvKAHBP7SCxs/pbeJxP6pieiYxLK9zKcF/FTQAn3mobyg5CauvlyYCUStVLo1/5xRMTG4IQ7asN+HgqKMYfi9+Bhrp0zc//EoRIRoBlqCnTt06ooba6HHKrPy7vDy2ZaFnr5FoitJ3ZGl9xrVpAM1u/iZl6/6+3OKWidUZQ=="
+    Serie="WTRA" SubTotal="6493792.24" TipoDeComprobante="I" Total="7532799.00" Version="3.3"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="PRUEBAS SA" RegimenFiscal="601" Rfc="AAA010101AAA"/>
+    <cfdi:Receptor Nombre="PRUEBA SA" Rfc="BASA970203HT3" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.000" ClaveProdServ="01010101" ClaveUnidad="E48"
+            Descripcion="Vta. Mcia. a DSWW de Agosto 17" Importe="6493792.24" Unidad="NA"
+            ValorUnitario="6493792.24">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="6493792.240000" Importe="1039006.758400" Impuesto="002"
+                        TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7003628"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7010507"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7010895"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7012839"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7012905"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7012920"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7012927"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7012994"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7020443"/>
+            <cfdi:InformacionAduanera NumeroPedimento="17  23  3849  7020461"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003133"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003152"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003170"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003190"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003905"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003919"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003939"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003944"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003949"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003962"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003973"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8003997"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005406"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005417"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005428"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005450"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005454"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005459"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005473"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005473"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005473"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005483"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005487"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8005497"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007270"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007280"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007286"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007297"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007606"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007608"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007617"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007620"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007632"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007654"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007675"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8007685"/>
+            <cfdi:InformacionAduanera NumeroPedimento="18  23  3849  8010136"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="1039006.76">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="1039006.758400" Impuesto="002" TasaOCuota="0.160000"
+                TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="E83BEA24-5521-4B9F-9130-8835D22E6AFE"
+            FechaTimbrado="2018-06-20T18:16:03" RfcProvCertif="AAA010101AAA"
+            SelloCFD="kbU4nQQxwSa9X0mmZH/0fUnfvmLfnSJTeLP6zGFxBpODZD/+0+yITx9znBax9co57vSfq9HFJd1HpB0TUcAIOc5KiPRyXcnLf1NrGXUbTkHrhMKfd3G7U/Js20RsLZ6Z69GxDuBd0NBAuSsxJwwPKA5K37W9GmwA5IyZ3Y7InJ6XdmbwvKAHBP7SCxs/pbeJxP6pieiYxLK9zKcF/FTQAn3mobyg5CauvlyYCUStVLo1/5xRMTG4IQ7asN+HgqKMYfi9+Bhrp0zc//EoRIRoBlqCnTt06ooba6HHKrPy7vDy2ZaFnr5FoitJ3ZGl9xrVpAM1u/iZl6/6+3OKWidUZQ=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="1fzKnETvS0jjWjF1S+Y63gaKpV/h6c0wrbpWcVUWusU4pSv/yPo61cAqI9Pg0L5RJxfhV+g1C5+8ZAfvjFoVGbJlzzgRCM6DM+siZiA3TBh5qytoWxSW3jCmfClE7vc6IBJ5vkjtNoxPbk3qTouCN+wFAbSaaGSx2VA7AAs8880="
+        />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

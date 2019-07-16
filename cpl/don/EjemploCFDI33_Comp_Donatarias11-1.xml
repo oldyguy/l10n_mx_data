@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:donat="http://www.sat.gob.mx/donat"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/donat http://www.sat.gob.mx/sitio_internet/cfd/donat/donat11.xsd"
+    Version="3.3" Serie="SOF" Folio="10087" Fecha="2018-05-30T11:32:45"
+    Sello="JPR830csM7IGuR1SLsfsmgF9GhewcjzPeHMmMHVlkTEA0dzYWIVEGi2inu/T9SEhJMx/EwmvQAPccDWfvH3lv552wX6oiJ3IiMv50A73nY4gmYdEOJW1Yo5ZXs7NmVObS2/QWGrklxPRHjLw1H6tvGBu8KW12pZYkB3Cje1o9vKKmD4bjt44/JC8kPU6YqVWhFk1mUSu0nc1fvZ4K4u9+WEfZ6fq9N9tXUJLRDpu80dZbq3UB/dDPXJMBh7HTy8PtjCvB9iYjKa+gmtQXUKWh8qbLmDUpFpQ54hX9RNFtpcaETgTcLYWhRZ/u4hfEjeHQ16wOsogDtpMEKXp+m2Tkg=="
+    NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="100.00" Moneda="MXN" Total="100.00" TipoDeComprobante="I" FormaPago="03"
+    MetodoPago="PUE" CondicionesDePago="CONTADO" LugarExpedicion="76160">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="PRUEBA, SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="PRUEBAS CFDI" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.00" Unidad="PZ" NoIdentificacion="COD1"
+            Descripcion="Donación para asociación" ValorUnitario="100.00" Importe="100.00"
+            ClaveProdServ="01010101" ClaveUnidad="C81">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.00" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.000000" Importe="0.00"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="89BDF401-3415-4A6F-88D1-AAC28D9D7434"
+            FechaTimbrado="2018-05-31T09:33:32" RfcProvCertif="AAA010101AAA"
+            SelloCFD="JPR830csM7IGuR1SLsfsmgF9GhewcjzPeHMmMHVlkTEA0dzYWIVEGi2inu/T9SEhJMx/EwmvQAPccDWfvH3lv552wX6oiJ3IiMv50A73nY4gmYdEOJW1Yo5ZXs7NmVObS2/QWGrklxPRHjLw1H6tvGBu8KW12pZYkB3Cje1o9vKKmD4bjt44/JC8kPU6YqVWhFk1mUSu0nc1fvZ4K4u9+WEfZ6fq9N9tXUJLRDpu80dZbq3UB/dDPXJMBh7HTy8PtjCvB9iYjKa+gmtQXUKWh8qbLmDUpFpQ54hX9RNFtpcaETgTcLYWhRZ/u4hfEjeHQ16wOsogDtpMEKXp+m2Tkg=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="BlnkN//fVD9Ra3ztF8npzSPwWyqMQDqSc+Cm/G8RrAoeomHF6e6/E+6+Mb9zY7F8g2s0M30fEOVXHNvmQzzoii6rSt4vKjIjAcNgh/FWDrz900ywACz9jT/TVPfBDWGpXblv6N4HepOB9VE8aHRCsrH7EhVXxCn9l33PNXuB8Fc="/>
+        <donat:Donatarias version="1.1" noAutorizacion="29" fechaAutorizacion="2018-05-20"
+            leyenda="mileyenda"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

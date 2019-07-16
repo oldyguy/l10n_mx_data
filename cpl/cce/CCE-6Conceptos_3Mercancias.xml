@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    Certificado="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"
+    Fecha="2019-02-06T19:04:01" Folio="100129212" FormaPago="99" LugarExpedicion="66050"
+    MetodoPago="PPD" Moneda="USD" NoCertificado="30001000000300023708"
+    Sello="ZnfNHdyhhm48XWXiMyLmx3PefsYZN9AnP6UEythygVnuaOAReFmRe/LGtV6fzbedrpKviL79C7SWX9U5yvEStosbaPTQ/eInqytQbKudTHZuO1mEg9CfASDUss8NhroLk3WBZNGtMElYzNWTOAy0vCkSrTubxgHzJybV/PlUTBLq0xp9uongpAPyygCf13qpve/k86k4NAkXlOv8Q1Eq+ViG1wjUU7rZ38pTANzx8N3YyBUpEWn+mIwn0KSLLJIUMRmbKvxA/gVYo26x6Ij5YNJKScTRnLAPhb3nMb3hwRWYFMfhDhA4S5bM1IWpbz+e1fseGEw+cMVOBJFmzEMGsA=="
+    SubTotal="7560.14" TipoCambio="19.48990" TipoDeComprobante="I" Total="7560.14" Version="3.3"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd&#xA; http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd">
+    <cfdi:Emisor Nombre="Empresa Emisora del CFDI" RegimenFiscal="601" Rfc="AAA010101AAA"/>
+    <cfdi:Receptor Nombre="Empresa Receptora del CFDI" NumRegIdTrib="383380735"
+        ResidenciaFiscal="USA" Rfc="XEXX010101000" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="561.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 1 x 0.069 x 50.990" Importe="1239.19"
+            NoIdentificacion="TA3636685ST" Unidad="UN" ValorUnitario="2.208895"/>
+        <cfdi:Concepto Cantidad="561.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 1 x 0.069 x 50.990" Importe="1239.19"
+            NoIdentificacion="TA3636685ST" Unidad="UN" ValorUnitario="2.208895"/>
+        <cfdi:Concepto Cantidad="340.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 0.980x1.512 x 0.059 x 42.177" Importe="1441.80"
+            NoIdentificacion="TA3617328ST.L" Unidad="UN" ValorUnitario="4.240588"/>
+        <cfdi:Concepto Cantidad="340.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 0.980x1.512 x 0.059 x 42.177" Importe="1441.80"
+            NoIdentificacion="TA3617328ST.L" Unidad="UN" ValorUnitario="4.240588"/>
+        <cfdi:Concepto Cantidad="238.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 0.980x1.512 x 0.059 x 42.177" Importe="1009.26"
+            NoIdentificacion="TA3617328ST.L" Unidad="UN" ValorUnitario="4.240588"/>
+        <cfdi:Concepto Cantidad="900.000" ClaveProdServ="25174600" ClaveUnidad="XUN"
+            Descripcion="STEEL TUBE 1 X 1 X 0.059 X 19.185" Importe="1188.90"
+            NoIdentificacion="TA3616129ST" Unidad="UN" ValorUnitario="1.321"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="A5CBE3B0-C6B1-4131-A923-67BEC01CA6CB"
+            FechaTimbrado="2019-02-06T19:04:02" RfcProvCertif="AAA010101AAA"
+            SelloCFD="ZnfNHdyhhm48XWXiMyLmx3PefsYZN9AnP6UEythygVnuaOAReFmRe/LGtV6fzbedrpKviL79C7SWX9U5yvEStosbaPTQ/eInqytQbKudTHZuO1mEg9CfASDUss8NhroLk3WBZNGtMElYzNWTOAy0vCkSrTubxgHzJybV/PlUTBLq0xp9uongpAPyygCf13qpve/k86k4NAkXlOv8Q1Eq+ViG1wjUU7rZ38pTANzx8N3YyBUpEWn+mIwn0KSLLJIUMRmbKvxA/gVYo26x6Ij5YNJKScTRnLAPhb3nMb3hwRWYFMfhDhA4S5bM1IWpbz+e1fseGEw+cMVOBJFmzEMGsA=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="cBgHKeSFqwxGTF53roC22lz/AcQ7CAs0w4+lW2wysSw4aKaVoaUnO8leueP6fzd/mPSPh+W4iD0h5npWsb527ex/MdWzHdqZpif1CwgsUh+XC1Bet+feBcmX1dzYY/Buk4N88+B9iBLBoUIKE1tOohAJkHyKKwMwaqxqTTXh7+4="/>
+        <cce11:ComercioExterior xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+            CertificadoOrigen="0" ClaveDePedimento="A1" Incoterm="EXW"
+            Observaciones="CFDI Comercio Exterior" Subdivision="0" TipoCambioUSD="19.48990"
+            TipoOperacion="2" TotalUSD="7560.14" Version="1.1">
+            <cce11:Emisor>
+                <cce11:Domicilio Calle="Carretera Monterrey - Saltillo" CodigoPostal="66050"
+                    Estado="NLE" Municipio="021" NumeroExterior="km 28.2" Pais="MEX"/>
+            </cce11:Emisor>
+            <cce11:Receptor>
+                <cce11:Domicilio Calle="Halyard Drive" CodigoPostal="48170" Estado="MI"
+                    NumeroExterior="49200" Pais="USA"/>
+            </cce11:Receptor>
+            <cce11:Mercancias>
+                <cce11:Mercancia CantidadAduana="1481.522" FraccionArancelaria="72082701"
+                    NoIdentificacion="TA3636685ST" UnidadAduana="01" ValorDolares="2478.38"
+                    ValorUnitarioAduana="1.67"/>
+                <cce11:Mercancia CantidadAduana="1279.195" FraccionArancelaria="72255099"
+                    NoIdentificacion="TA3617328ST.L" UnidadAduana="01" ValorDolares="3892.86"
+                    ValorUnitarioAduana="3.04"/>
+                <cce11:Mercancia CantidadAduana="509.483" FraccionArancelaria="72255099"
+                    NoIdentificacion="TA3616129ST" UnidadAduana="01" ValorDolares="1188.90"
+                    ValorUnitarioAduana="2.33"/>
+            </cce11:Mercancias>
+        </cce11:ComercioExterior>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

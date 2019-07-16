@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:terceros="http://www.sat.gob.mx/terceros"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd"
+    Version="3.3" Serie="MEMP0" Folio="2" Fecha="2018-07-12T12:53:21"
+    Sello="chyO7lixrfBrpjhEiWWKcbVw3aR/IE/1NsL6uNG3yQ4/TK+MviaL2bGGPn7jHFTEu9JI+DMyZkSST7nGWkUk7gPoP16eieT4EqcaCTOq7luvYAX7FJR4mVqB/E2U2Jof+JM3SndCo9N4NJJhcl/FP0TbfSBSpi2FUseTM/2AzPO+x/wCw36tx6m0pq/UNi/4ldP576s51rB+pbQo0u6hP/OJJf7ISImJ9i9b681mvkWin7TH9o81ML59g2+m2IAkqw9Ry0BU6VSZ8YLmMr/gTzr8iBG38xwa4fMNVe3wAJEemEBWQXeh02QQZxRZorgISPx+RE1ImqEPhQjytS+7Lg=="
+    FormaPago="99" NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="658185.30" Moneda="MXN" Total="763494.96" TipoDeComprobante="I" MetodoPago="PPD"
+    LugarExpedicion="06600">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="PRUEBA, SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="Receptor del comprobante" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="01010101" NoIdentificacion="20170515B002002P00"
+            Cantidad=" 1.000" ClaveUnidad="EA" Unidad="Elemento" Descripcion="20170515B002002B02030"
+            ValorUnitario="558268.61" Importe="558268.61">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="558268.61" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota=" 0.160000" Importe=" 89322.98"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:ComplementoConcepto>
+                <terceros:PorCuentadeTerceros version="1.1" rfc="BASA970203HT3"
+                    nombre="PRUEBA DE SERVICIOS BASICOS">
+                    <terceros:InformacionFiscalTercero calle="Av. Paseo de la Reforma"
+                        noExterior="164" municipio="Cuauhtémoc" localidad="Cuauhtémoc"
+                        colonia="Juarez" estado="Ciudad de México" pais="México"
+                        codigoPostal="06612"/>
+                    <terceros:Impuestos>
+                        <terceros:Traslados>
+                            <terceros:Traslado importe=" 89322.98" impuesto="IVA" tasa="16"/>
+                        </terceros:Traslados>
+                    </terceros:Impuestos>
+                </terceros:PorCuentadeTerceros>
+            </cfdi:ComplementoConcepto>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="01010101" NoIdentificacion="20170515B002002P00"
+            Cantidad=" 1.000" ClaveUnidad="EA" Unidad="Elemento" Descripcion="20170515B002002B12180"
+            ValorUnitario="99916.69" Importe="99916.69">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="99916.69" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota=" 0.160000" Importe=" 15986.68"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:ComplementoConcepto>
+                <terceros:PorCuentadeTerceros version="1.1" rfc="BASA970203HT3"
+                    nombre="PRUEBA DE SERVICIOS BASICOS">
+                    <terceros:InformacionFiscalTercero calle="Av. Paseo de la Reforma"
+                        noExterior="164" municipio="Cuauhtémoc" localidad="Cuauhtémoc"
+                        colonia="Juarez" estado="Ciudad de México" pais="México"
+                        codigoPostal="06612"/>
+                    <terceros:Impuestos>
+                        <terceros:Traslados>
+                            <terceros:Traslado importe=" 15986.68" impuesto="IVA" tasa="16"/>
+                        </terceros:Traslados>
+                    </terceros:Impuestos>
+                </terceros:PorCuentadeTerceros>
+            </cfdi:ComplementoConcepto>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="105309.66">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota=" 0.160000"
+                Importe="105309.66"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="8A1F72F8-D7DD-4252-92C6-73EFE190C8B9"
+            FechaTimbrado="2018-07-13T17:33:00" RfcProvCertif="AAA010101AAA"
+            SelloCFD="chyO7lixrfBrpjhEiWWKcbVw3aR/IE/1NsL6uNG3yQ4/TK+MviaL2bGGPn7jHFTEu9JI+DMyZkSST7nGWkUk7gPoP16eieT4EqcaCTOq7luvYAX7FJR4mVqB/E2U2Jof+JM3SndCo9N4NJJhcl/FP0TbfSBSpi2FUseTM/2AzPO+x/wCw36tx6m0pq/UNi/4ldP576s51rB+pbQo0u6hP/OJJf7ISImJ9i9b681mvkWin7TH9o81ML59g2+m2IAkqw9Ry0BU6VSZ8YLmMr/gTzr8iBG38xwa4fMNVe3wAJEemEBWQXeh02QQZxRZorgISPx+RE1ImqEPhQjytS+7Lg=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="U0KpdcrkhCK50rLI/veOHDKZ2tzcto7uxc23iAW3+jtSgp5RFBK3UIUARKuXSAHYWMiIY/uab3W8Q9jj6+UA3yt5NqvvVTS0YE/BR8BmLVa/AqVVbnFSXiX665DJBz5SkIN4MDyAJmMhW/DvnCcUHDqRI596JlEzuY6dGwaBU8E="
+        />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

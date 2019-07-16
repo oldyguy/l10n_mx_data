@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd"
+    Version="3.3" Serie="NOMINA" Folio="96283" Fecha="2019-02-07T10:57:32"
+    Sello="YVwPjY8Xl9duqDL/AAE3yK+N1JIKzSpBJhTc7MrmfZzcqn3zQl2jt76X6m/4SXO5roIv7kwVkyPuYL+XdSqG6b+Wci2OcZGRv3W4MFcrL2L0Gyeer8ga+5XwWmPI1RzVDTFvdVG9veJpxsqT9S0bxXjEY1W5Ig0UnLl1loiPWD8QryLVBgmlWqcSK3P7XVSpzmsZGBdJ4vtdOWriBXdir7OQ2NqOGs/J4zU4YMyGJeWvwZ4yNhOGJaQE4ip802y4L/8Jm78rFsvIQsbBVidbPRDPm41RyqdKVv58QX7amTeKDDGNHTabGZp5a78ooucHAkFvZp85J7qO0/WYQk6N3Q=="
+    FormaPago="99" NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="2080.58" Descuento="1310.77" Moneda="MXN" Total="769.81" TipoDeComprobante="N"
+    MetodoPago="PUE" LugarExpedicion="05349" xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nomina12="http://www.sat.gob.mx/nomina12">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="Emisor del CFDI" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="Receptor del CFDI" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT"
+            Descripcion="Pago de nómina" ValorUnitario="2080.58" Importe="2080.58"
+            Descuento="1310.77"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="BA1AB807-2569-41B2-9EA4-534E86043060"
+            FechaTimbrado="2019-02-07T10:57:23" RfcProvCertif="SED1102088J7"
+            SelloCFD="YVwPjY8Xl9duqDL/AAE3yK+N1JIKzSpBJhTc7MrmfZzcqn3zQl2jt76X6m/4SXO5roIv7kwVkyPuYL+XdSqG6b+Wci2OcZGRv3W4MFcrL2L0Gyeer8ga+5XwWmPI1RzVDTFvdVG9veJpxsqT9S0bxXjEY1W5Ig0UnLl1loiPWD8QryLVBgmlWqcSK3P7XVSpzmsZGBdJ4vtdOWriBXdir7OQ2NqOGs/J4zU4YMyGJeWvwZ4yNhOGJaQE4ip802y4L/8Jm78rFsvIQsbBVidbPRDPm41RyqdKVv58QX7amTeKDDGNHTabGZp5a78ooucHAkFvZp85J7qO0/WYQk6N3Q=="
+            NoCertificadoSAT="20001000000300022323"
+            SelloSAT="JBoVcu1ysyJARmn9JK00m2GMM3ZvR+znSXQKfxDs7Rg4tBXhpLl3FSbCxgMXlT5BfFrklzsksl50V+Dyrz2u82dkyIVzXeYgPT7q3M0OOtjyeV6gKy7euMXhQATuewwxWZJNOecB7R7fvUqbRpWJV+5GhwUXJWDxx6a1T6XHQLJ1FxQlCHNSriuxlaKjsSu8/B5STEMfuRAMOg8tEgt80jrsJ/PC76jJeA8ikFOBauKO51HFlYIAOsdizQFa6fmfi9zlFOUPfedHuRXGXzgCGfJQipPnpjJCCRyDi7BgfydXE8cUWslcsYkuNAj5T+bcWe30EakzLEigxecmEesOow=="/>
+        <nomina12:Nomina FechaFinalPago="2019-01-13" FechaInicialPago="2019-01-07"
+            FechaPago="2019-01-13" NumDiasPagados="3.000" TipoNomina="O" TotalDeducciones="1310.77"
+            TotalOtrosPagos="153.09" TotalPercepciones="1927.49" Version="1.2">
+            <nomina12:Emisor RegistroPatronal="Y8750307103"/>
+            <nomina12:Receptor Antigüedad="P318W" Banco="014" ClaveEntFed="MEX"
+                CuentaBancaria="56686537897" Curp="REAJ821121HVZYNL08" Departamento="ACABADO"
+                FechaInicioRelLaboral="2012-12-10" NumEmpleado="1048"
+                NumSeguridadSocial="49008205715" PeriodicidadPago="02" Puesto="OFICIAL DE REVISADO"
+                RiesgoPuesto="3" SalarioBaseCotApor="289.31" SalarioDiarioIntegrado="289.31"
+                Sindicalizado="Sí" TipoContrato="01" TipoJornada="08" TipoRegimen="02"/>
+            <nomina12:Percepciones TotalExento="0" TotalGravado="1927.49" TotalSueldos="1927.49">
+                <nomina12:Percepcion Clave="P001" Concepto="SUELDO" ImporteExento="0.00"
+                    ImporteGravado="1927.49" TipoPercepcion="001"/>
+            </nomina12:Percepciones>
+            <nomina12:Deducciones TotalOtrasDeducciones="1310.77">
+                <nomina12:Deduccion Clave="D002" Concepto="IMSS" Importe="49.43" TipoDeduccion="001"/>
+                <nomina12:Deduccion Clave="D005" Concepto="FONDO DE AHORRO" Importe="96.37"
+                    TipoDeduccion="004"/>
+                <nomina12:Deduccion Clave="D011" Concepto="CUOTA SINDICAL" Importe="38.55"
+                    TipoDeduccion="019"/>
+                <nomina12:Deduccion TipoDeduccion="006" Clave="0109"
+                    Concepto="DESCUENTO INCAPACIDAD" Importe="1101.42"/>
+                <nomina12:Deduccion Clave="D017" Concepto="AYUDA DE DEFUNCION" Importe="25.00"
+                    TipoDeduccion="004"/>
+            </nomina12:Deducciones>
+            <nomina12:OtrosPagos>
+                <nomina12:OtroPago Clave="D100" Concepto="SUBSIDIO PARA EL EMPLEO" Importe="153.09"
+                    TipoOtroPago="002">
+                    <nomina12:SubsidioAlEmpleo SubsidioCausado="153.09"/>
+                </nomina12:OtroPago>
+            </nomina12:OtrosPagos>
+            <nomina12:Incapacidades>
+                <nomina12:Incapacidad DiasIncapacidad="4" TipoIncapacidad="02"
+                    ImporteMonetario="1101.42"/>
+            </nomina12:Incapacidades>
+        </nomina12:Nomina>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

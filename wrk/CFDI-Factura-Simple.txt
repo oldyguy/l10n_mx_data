@@ -1,0 +1,8 @@
+﻿COMPROBANTE|AAA010101AAA|F|CORE6208164Q5|3.3|01|NET|61878.00|0.00|71637.84|PUE|8391||||MXN||OR14|8520|66420|I|||2019-05-27T12:27:00|
+EMISOR|AAA010101AAA|Consultores Especializados S.A. De C.V.|601|Ave. Benito Juárez|201|A|Central|||Monterrey|Nuevo León|México|66420|
+RECEPTOR|CORE6208164Q5|Juan Francisco López|||G01|Ruiz Cortínez|320||Mitras|||Monterrey|Nuevo León|Mexico|66415|mailcliente@dominio.com||||
+CONCEPTO|1|43211508|MPTT2E-A|1.000|H87|Piece|MacBook Pro - Apple MPTT2E/A de 15"- Intel Core i7 - Memoria de 16 GB - SSD de 512 GB - Gris|60999.00|60999.00|0.00||
+CONCEPTO|2|60102300|LITER001|1.000|E48|Service|Site Reliability Engeneering: How Run Production Systems|879.00|879.00|0.00||
+CONCEPTO_IMPUESTO_TRASLADO|1|60999.00|002|Tasa|0.160000|9759.84|
+IMPUESTOS||9759.84|
+TRASLADOS|002|Tasa|0.160000|9759.84|

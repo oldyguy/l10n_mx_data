@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd"
+    xmlns:nomina12="http://www.sat.gob.mx/nomina12" Version="3.3" Folio="1"
+    Fecha="2018-07-12T12:41:44"
+    Sello="Xys8JayTADK89yAHTdCvKSUkiISYnBAhfKkEQnLobai3/yHdSIW6fO5T0YHT5euoYSCw76XN3aK8HyRoYsizHDa1Gl5mZ+s1/yL3NL9K4hwIWqvMsIzkD59qsEm3BvZiyxGS/JSIF68KQmkkysDonJ52gFKGUUHAneB5J0Y38GliCrQug3JoBnJ7p/qyC99y5Mn8Myo5wMOnGMSx2k0lmMU6jJDZfwR/A5vT4+3nf8/F24VmMRhp3bQWoLKW/rqqvXVSE3X4bU802OrtFyGWFHuZ+jaRCgzVCw40FJTxBtf4uZ7BrHUZ3wraJMwL6XZPpTXn4qwIeE1JhttSZvaqXA=="
+    FormaPago="99" NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="2303.05" Descuento="850.24" Moneda="MXN" Total="1452.81" TipoDeComprobante="N"
+    MetodoPago="PUE" LugarExpedicion="25204">
+    <cfdi:Emisor Nombre="ARMANDOS SA DE CV" Rfc="AAA010101AAA" RegimenFiscal="601"/>
+    <cfdi:Receptor Nombre="GARCIA MEDELLIN MARIO ARMANDO" Rfc="GAMM710912B23" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT"
+            Descripcion="Pago de nómina" ValorUnitario="2303.05" Importe="2303.05"
+            Descuento="850.24"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="9286C84A-9D7E-4B77-81F1-052400BD1228"
+            FechaTimbrado="2018-07-13T17:13:01" RfcProvCertif="AAA010101AAA"
+            SelloCFD="Xys8JayTADK89yAHTdCvKSUkiISYnBAhfKkEQnLobai3/yHdSIW6fO5T0YHT5euoYSCw76XN3aK8HyRoYsizHDa1Gl5mZ+s1/yL3NL9K4hwIWqvMsIzkD59qsEm3BvZiyxGS/JSIF68KQmkkysDonJ52gFKGUUHAneB5J0Y38GliCrQug3JoBnJ7p/qyC99y5Mn8Myo5wMOnGMSx2k0lmMU6jJDZfwR/A5vT4+3nf8/F24VmMRhp3bQWoLKW/rqqvXVSE3X4bU802OrtFyGWFHuZ+jaRCgzVCw40FJTxBtf4uZ7BrHUZ3wraJMwL6XZPpTXn4qwIeE1JhttSZvaqXA=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="GZYtEI0XsdBS0Z5MI568Md2BOa0VuQLE8PkcnpZIxGkyc1eJyv2znxnmAT8oxJghhSzupZnrazuExrd3JEQhmyvSQP9LPsH54M8F/VJb7dkMF9gAzbiBa0aaMdis0oq01GjXejX/uWAPMd7FgCvC/WxJ4gmCYAv2WjZVodmmkS8="/>
+        <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2017-02-28"
+            FechaInicialPago="2017-02-16" FechaFinalPago="2017-02-28" NumDiasPagados="3.670"
+            TotalPercepciones="2003.05" TotalDeducciones="850.24" TotalOtrosPagos="300.00">
+            <nomina12:Emisor RegistroPatronal="59654532574"/>
+            <nomina12:Receptor Curp="GAMM710912HCLRDR00" NumSeguridadSocial="32719656177"
+                FechaInicioRelLaboral="2000-01-01" Antigüedad="P895W" TipoContrato="01"
+                Sindicalizado="No" TipoJornada="01" TipoRegimen="02" NumEmpleado="1405"
+                Departamento="VENTAS" Puesto="EMPLEADOS" RiesgoPuesto="2" PeriodicidadPago="04"
+                Banco="072" CuentaBancaria="1234567890" SalarioBaseCotApor="348.09"
+                SalarioDiarioIntegrado="417.08" ClaveEntFed="COA">
+                <nomina12:SubContratacion RfcLabora="CALJ581101M37" PorcentajeTiempo="100.000"/>
+            </nomina12:Receptor>
+            <nomina12:Percepciones TotalSueldos="2003.05" TotalGravado="1475.04"
+                TotalExento="528.01">
+                <nomina12:Percepcion TipoPercepcion="001" Clave="0004" Concepto="SUELDO CON 7 DIA"
+                    ImporteGravado="1400.04" ImporteExento="0.00"/>
+                <nomina12:Percepcion TipoPercepcion="019" Clave="0011"
+                    Concepto="TPO EXTRA DOBLE NO INTEGRABLE" ImporteGravado="75.00"
+                    ImporteExento="75.00">
+                    <nomina12:HorasExtra Dias="1" TipoHoras="01" HorasExtra="2"
+                        ImportePagado="150.00"/>
+                </nomina12:Percepcion>
+                <nomina12:Percepcion TipoPercepcion="005" Clave="0027"
+                    Concepto="FONDO DE AHORRO PATRON" ImporteGravado="0.00" ImporteExento="143.01"/>
+                <nomina12:Percepcion TipoPercepcion="029" Clave="0031" Concepto="VALES DE DESPENSA"
+                    ImporteGravado="0.00" ImporteExento="110.00"/>
+                <nomina12:Percepcion TipoPercepcion="045" Clave="0051" Concepto="ACCIONES"
+                    ImporteGravado="0.00" ImporteExento="100.00">
+                    <nomina12:AccionesOTitulos ValorMercado="200.00" PrecioAlOtorgarse="200.00"/>
+                </nomina12:Percepcion>
+                <nomina12:Percepcion TipoPercepcion="045" Clave="0051" Concepto="ACCIONES"
+                    ImporteGravado="0.00" ImporteExento="100.00">
+                    <nomina12:AccionesOTitulos ValorMercado="5.00" PrecioAlOtorgarse="20.00"/>
+                </nomina12:Percepcion>
+            </nomina12:Percepciones>
+            <nomina12:Deducciones TotalOtrasDeducciones="730.81" TotalImpuestosRetenidos="119.43">
+                <nomina12:Deduccion TipoDeduccion="001" Clave="0101" Concepto="RET EYM  ART 25"
+                    Importe="5.22"/>
+                <nomina12:Deduccion TipoDeduccion="001" Clave="0102" Concepto="RET EyM  Art 106 II"
+                    Importe="1.73"/>
+                <nomina12:Deduccion TipoDeduccion="001" Clave="0103" Concepto="RET EyM  Art 107 II"
+                    Importe="3.48"/>
+                <nomina12:Deduccion TipoDeduccion="001" Clave="0104" Concepto="RET IV   Art 147"
+                    Importe="8.70"/>
+                <nomina12:Deduccion TipoDeduccion="001" Clave="0105" Concepto="RET CV   Art 168 II"
+                    Importe="15.66"/>
+                <nomina12:Deduccion TipoDeduccion="006" Clave="0109"
+                    Concepto="DESCUENTO INCAPACIDAD" Importe="300.00"/>
+                <nomina12:Deduccion TipoDeduccion="004" Clave="0126"
+                    Concepto="FDO AHORRO TRABAJADOR" Importe="143.01"/>
+                <nomina12:Deduccion TipoDeduccion="004" Clave="0127" Concepto="FDO AHORRO PATRON"
+                    Importe="143.01"/>
+                <nomina12:Deduccion TipoDeduccion="004" Clave="0131" Concepto="VALES DE DESPENSA"
+                    Importe="110.00"/>
+                <nomina12:Deduccion TipoDeduccion="002" Clave="0136" Concepto="ISR" Importe="119.43"
+                />
+            </nomina12:Deducciones>
+            <nomina12:OtrosPagos>
+                <nomina12:OtroPago TipoOtroPago="004" Clave="0048"
+                    Concepto="DEVOLUCION ISR EJERCICIO ANT" Importe="100.00">
+                    <nomina12:CompensacionSaldosAFavor SaldoAFavor="100.00" Año="2016"
+                        RemanenteSalFav="0.00"/>
+                </nomina12:OtroPago>
+                <nomina12:OtroPago TipoOtroPago="003" Clave="0050" Concepto="VIATICOS"
+                    Importe="200.00"/>
+            </nomina12:OtrosPagos>
+            <nomina12:Incapacidades>
+                <nomina12:Incapacidad DiasIncapacidad="1" TipoIncapacidad="02"
+                    ImporteMonetario="300.00"/>
+            </nomina12:Incapacidades>
+        </nomina12:Nomina>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

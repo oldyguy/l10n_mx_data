@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:vehiculousado="http://www.sat.gob.mx/vehiculousado"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/vehiculousado http://www.sat.gob.mx/sitio_internet/cfd/vehiculousado/vehiculousado.xsd"
+    Version="3.3" Serie="SOF" Folio="10087" Fecha="2018-11-12T12:24:12"
+    Sello="HEWAc1Hte775/wOZTdkKNvhzvsARnRRxKwLrFJOnEBODNDuhM3JkdlGppp+d8AyBaUp0sOuqCmRRf1Exu22cLJ578yOhWkjxKlbokncBlK+0pLA3qWvZA3BcxDCI8MP+ippxynt+D4xS4TjE8DY+VScq0P/6hAYKmp+S489KY4cTpmqJlFMTwXu/iKcx3LOZQl+3gAFZPjQqlg9FmrnltVdgf5MQVHVyjlaZ/DBEU/osWH4M6yvx07mFPIDwzh0a6L/cVUjC9qefJZA48c+kcXSekDWWqxK0QyoYUHG0XX4nrnJNpND+voU9eW45xaYJxB8iD5dlOxobzEHS1nfwKQ=="
+    NoCertificado="30001000000300023708"
+    Certificado="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"
+    SubTotal="100.00" Descuento="10.00" Moneda="MXN" Total="106.00" TipoDeComprobante="I"
+    FormaPago="03" MetodoPago="PUE" CondicionesDePago="CONTADO" LugarExpedicion="76160">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="PRUEBA, SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="PRUEBAS CFDI" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="01010101" ClaveUnidad="H87" NoIdentificacion="WT-99-L"
+            Cantidad="1.00" Unidad="PZ" Descripcion="Diadema Inalambrica WT-99 con LIF-99"
+            ValorUnitario="100.00" Descuento="10.00" Importe="100.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.00" Impuesto="002" TipoFactor="Tasa"
+                        TasaOCuota="0.160000" Importe="16.00"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="16.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="16.00"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="8FD451D6-6C14-4119-8122-CBA45F328E27"
+            FechaTimbrado="2018-11-12T12:24:13" RfcProvCertif="AAA010101AAA"
+            SelloCFD="HEWAc1Hte775/wOZTdkKNvhzvsARnRRxKwLrFJOnEBODNDuhM3JkdlGppp+d8AyBaUp0sOuqCmRRf1Exu22cLJ578yOhWkjxKlbokncBlK+0pLA3qWvZA3BcxDCI8MP+ippxynt+D4xS4TjE8DY+VScq0P/6hAYKmp+S489KY4cTpmqJlFMTwXu/iKcx3LOZQl+3gAFZPjQqlg9FmrnltVdgf5MQVHVyjlaZ/DBEU/osWH4M6yvx07mFPIDwzh0a6L/cVUjC9qefJZA48c+kcXSekDWWqxK0QyoYUHG0XX4nrnJNpND+voU9eW45xaYJxB8iD5dlOxobzEHS1nfwKQ=="
+            NoCertificadoSAT="20001000000100005761"
+            SelloSAT="fzUps8NES+IDZXbJEV5N8T+63XpuHXSNoxAQEDSBjcrgpnWCGnKbG4/FjLAvoHW5moEvoUQ75h1t9ZZkUbdTw8axVaYNirtkGB6ZsZmpMcYl9iKZ6nk1SZPaUScLH/0oEkH1TTPrSFPFOu0S4ZY4/lk5aP2JPX7zaHBGpZcFrzU="/>
+        <vehiculousado:VehiculoUsado montoAdquisicion="480000.00" montoEnajenacion="230000.00"
+            claveVehicular="8372323" marca="CHEVROLET" tipo="SILVERADO 4X4 EXT CREW" modelo="2011"
+            valor="250000.00" NIV="CHS23812321232" Version="1.0" numeroMotor="38261267381232132"
+            numeroSerie="KS82817DS214">
+            <vehiculousado:InformacionAduanera numero="882I49E20123" fecha="2014-03-10"
+                aduana="McAllen - Reynosa Anzalduas"/>
+        </vehiculousado:VehiculoUsado>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

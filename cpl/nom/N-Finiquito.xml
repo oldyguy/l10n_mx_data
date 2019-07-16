@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd"
+    Version="3.3" Serie="RN" Folio="1535" Fecha="2019-02-07T11:15:09" TipoDeComprobante="N"
+    FormaPago="99" MetodoPago="PUE" NoCertificado="30001000000300023708" SubTotal="22500.05"
+    Descuento="1234.09" Moneda="MXN" TipoCambio="1" Total="21265.96" LugarExpedicion="45069"
+    Certificado="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"
+    Sello="Xbm+e/sleVAJ52kOpnkjVQoh9pv528BxsvWnFUj7U33ebZpKJrsmEWrhwR4kDRGLozJim5m51hqOKcLFi7qr0dc82v0BB6d9N6BSIKFeU2UYLFLUN0VnzZp4FavXU5GQCuVV7BCCnFW0X40OWWHbR176DRv6c7aoO94FIwFiT0S+ZK8oNayv2yYPsj96uZbjPQ6A02fUc51Y4yzSRQ8MnQuYGPqCMEV+1LQUqBAmnOioeucJjJNo73qzD00jWx+A0uPXBzljYsOyBYvPaYC8MgPnFaWgmx54JPIss+FLZ7bUsJ3o7CQHEV++4fpqei3IlU7CiPbgaW8HPO/7aY/UUw==">
+    <cfdi:Emisor Rfc="AAA010101AAA" Nombre="CCC S.A." RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="BASA970203HT3" Nombre="Receptor del CFDI" UsoCFDI="P01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" Descripcion="Pago de nómina" ValorUnitario="22500.05"
+            Importe="22500.05" ClaveProdServ="84111505" ClaveUnidad="ACT" Descuento="1234.09"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+            Version="1.1" UUID="03C09EE0-3FE8-4BDB-9394-95F536E328A6"
+            FechaTimbrado="2019-02-07T11:15:00" RfcProvCertif="SED1102088J7"
+            SelloCFD="Xbm+e/sleVAJ52kOpnkjVQoh9pv528BxsvWnFUj7U33ebZpKJrsmEWrhwR4kDRGLozJim5m51hqOKcLFi7qr0dc82v0BB6d9N6BSIKFeU2UYLFLUN0VnzZp4FavXU5GQCuVV7BCCnFW0X40OWWHbR176DRv6c7aoO94FIwFiT0S+ZK8oNayv2yYPsj96uZbjPQ6A02fUc51Y4yzSRQ8MnQuYGPqCMEV+1LQUqBAmnOioeucJjJNo73qzD00jWx+A0uPXBzljYsOyBYvPaYC8MgPnFaWgmx54JPIss+FLZ7bUsJ3o7CQHEV++4fpqei3IlU7CiPbgaW8HPO/7aY/UUw=="
+            NoCertificadoSAT="20001000000300022323"
+            SelloSAT="hm82XxQJ4hQXlkykGFmblkb8BfPAdafXt0aWkUaN/gFHGslrbWOKOEiPqqedyxlG0gDxSKwVbAG3pmTAeDSLL0w9uiOpQfvEzN9JKjipca/7rojRDqhfBzHOSnku81aK3pvhCM4U680poQU8SVIA68rJPV94bEOkWCHTP/o0MDL2wFINh7nhoNaBTvJQFQIFyyRwoLbIuSiNsJTWeWCBPeG93gsjna7lA55Q6t5gMOFPx4MYI1JS9J+MSnAVDNeELfcEm7WkFjHOmSRSLGlEsN0q24VU0MZ1y1BMEtsZbvVqoBbegXomxRu2pnJjya6dxfUEcItt+7LXZnEtklLsVQ=="/>
+        <nomina12:Nomina xmlns:nomina12="http://www.sat.gob.mx/nomina12" Version="1.2"
+            FechaPago="2016-10-31" FechaInicialPago="2016-10-16" FechaFinalPago="2016-10-31"
+            NumDiasPagados="15" TipoNomina="O" TotalDeducciones="1234.09"
+            TotalPercepciones="22500.05">
+            <nomina12:Emisor RegistroPatronal="5525665412"/>
+            <nomina12:Receptor Curp="AUAC460113HJCMSR01" TipoContrato="01" TipoRegimen="02"
+                NumEmpleado="005" PeriodicidadPago="04" ClaveEntFed="JAL"
+                NumSeguridadSocial="12235323123" Banco="021" FechaInicioRelLaboral="2016-06-01"
+                Antigüedad="P21W" Puesto="CHEF" SalarioBaseCotApor="435.50" RiesgoPuesto="2"
+                SalarioDiarioIntegrado="435.50"> </nomina12:Receptor>
+            <nomina12:Percepciones TotalGravado="22500.05" TotalExento="0.00" TotalSueldos="7500.05"
+                TotalSeparacionIndemnizacion="15000.00">
+                <nomina12:Percepcion TipoPercepcion="001" Clave="001"
+                    Concepto="Sueldos, Salarios Rayas y Jornales" ImporteGravado="6250.05"
+                    ImporteExento="0.00"/>
+                <nomina12:Percepcion TipoPercepcion="049" Clave="014"
+                    Concepto="Premios de asistencia" ImporteGravado="625.00" ImporteExento="0.00"/>
+                <nomina12:Percepcion TipoPercepcion="010" Clave="013"
+                    Concepto="Premios por puntualidad" ImporteGravado="625.00" ImporteExento="0.00"/>
+                <nomina12:Percepcion TipoPercepcion="025" Clave="025" Concepto="Indemnizaciones"
+                    ImporteGravado="15000.00" ImporteExento="0.00"/>
+                <nomina12:SeparacionIndemnizacion TotalPagado="15000.00" NumAñosServicio="3"
+                    UltimoSueldoMensOrd="5000.00" IngresoAcumulable="3000.00"
+                    IngresoNoAcumulable="1000.00"/>
+            </nomina12:Percepciones>
+            <nomina12:Deducciones TotalOtrasDeducciones="179.34" TotalImpuestosRetenidos="1054.75">
+                <nomina12:Deduccion TipoDeduccion="002" Clave="001" Concepto="ISR" Importe="1054.75"/>
+                <nomina12:Deduccion TipoDeduccion="001" Clave="012" Concepto="Seguridad social"
+                    Importe="179.34"/>
+            </nomina12:Deducciones>
+        </nomina12:Nomina>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
