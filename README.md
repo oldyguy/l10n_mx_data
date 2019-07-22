@@ -326,9 +326,26 @@
 - [ ] Llenar el campo _Factor TASA_ en los impuestos
 - [ ] Utilizar el idioma _es\_MX_, en lugar de _es\_ES_ al crear la base de datos en _Español_, con la localización mexicana.
 - [ ] Cambiar el default de impuestos a 16% de IVA en Ventas y Compras (actualmente son 0% y 4%, que muy pocos usan).
+- [ ] Validar el manejo correcto de partidas negativas como descuentos.
+
+<br><br>
+###### Fuentes de información pública (activas a jul-2019):
+
+| Tipo | Tema | Link |
+| :--- | :--- | :--- |
+| forum | Odoo | https://groups.google.com/forum/#!forum/openerp-mexico |
+| foro | validacfd | http://www.validacfd.com/phpbb3/index.php |
+| foro | vfp | https://groups.google.com/forum/#!forum/vfp-factura-electronica-mexico |
+| blog | reachcore | https://soporte.reachcore.com/hc/es |
+| blog | general | https://comunidadfacturaelectronica.com/ |
+| blog | proscai | https://ayuda.proscai.com/hc/es-419/sections/115003854568-CFDI-3-3 |
+| blog | fact-e | https://www.facturacion-e.net/ |
+| blog | fiscal | https://www.rankia.mx/blog/sat-servicio-administracion-tributaria |
+| blog | fiscal | https://idconline.mx/fiscal-contable |
+| blog | fiscal | http://losimpuestos.com.mx/ |
 
 
-
+<br><br>
 ## Disclaimer:<br>
 _This repository contains public information from several sources.  Although it's preferable to link them to the original source to minimize document maintenance, we found that the Mexican government tax agency (SAT) recently modified its pages creating a number of broken links along related websites.<br>
 To facilitate this development, we searched for documents that contribute with something relevant and included them physically in this repository.<br>
