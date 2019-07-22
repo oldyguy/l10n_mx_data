@@ -333,7 +333,7 @@
 
 | Tipo | Tema | Link |
 | :--- | :--- | :--- |
-| forum | Odoo | https://groups.google.com/forum/#!forum/openerp-mexico |
+| foro | Odoo | https://groups.google.com/forum/#!forum/openerp-mexico |
 | foro | validacfd | http://www.validacfd.com/phpbb3/index.php |
 | foro | vfp | https://groups.google.com/forum/#!forum/vfp-factura-electronica-mexico |
 | blog | reachcore | https://soporte.reachcore.com/hc/es |
